@@ -10,7 +10,6 @@
     <modules>
         <module>addidas</module>
         <module>bestBuy</module>
-        <module>client</module>
         <module>wallmart</module>
     </modules>
     <properties>
