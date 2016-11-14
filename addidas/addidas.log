@@ -87456,3 +87456,531 @@ Properties:
 2016-11-13 10:58:19 DEBUG StoreOperationsImpl:203 - Inserting elements on list: 
 2016-11-13 10:58:19 DEBUG StoreOperationsImpl:203 - Inserting elements on list: 
 2016-11-13 10:58:19 DEBUG StoreOperationsImpl:203 - Inserting elements on list: 
+2016-11-14 12:29:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:10 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:10 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:29:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:49:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:49:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:49:10 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:49:10 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:50:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:50:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:50:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:50:35 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:51:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:51:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:51:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:51:51 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 12:52:15 INFO  Launcher:39 - Starting program
+2016-11-14 12:52:41 INFO  Launcher:150 - showing size
+2016-11-14 12:52:41 INFO  Launcher:151 - queue size:0
+2016-11-14 12:52:44 WARN  Launcher:172 - no valid option selected
+2016-11-14 12:53:05 INFO  Launcher:81 - Register addidas
+2016-11-14 12:53:48 INFO  Launcher:86 - Register addidas
+2016-11-14 12:53:48 INFO  Suscription:78 - Preparing responses
+2016-11-14 12:53:49 INFO  Suscription:93 - Connected to queue responseQueue
+2016-11-14 12:53:58 INFO  Launcher:150 - showing size
+2016-11-14 12:53:58 INFO  Launcher:151 - queue size:0
+2016-11-14 12:54:34 INFO  Launcher:105 - starting procesor
+2016-11-14 12:54:34 INFO  Launcher:110 - cart size:0 is done: false
+2016-11-14 12:54:34 INFO  Processor:61 - connecting qpid 
+2016-11-14 12:54:34 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 12:54:34 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 12:54:40 INFO  Processor:126 - Sending response done
+2016-11-14 12:54:40 INFO  Processor:130 - session closed
+2016-11-14 12:54:47 INFO  Launcher:105 - starting procesor
+2016-11-14 12:54:47 INFO  Launcher:110 - cart size:0 is done: false
+2016-11-14 12:54:47 INFO  Processor:61 - connecting qpid 
+2016-11-14 12:54:47 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 12:54:47 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 12:54:52 INFO  Processor:126 - Sending response done
+2016-11-14 12:54:52 INFO  Processor:130 - session closed
+2016-11-14 12:58:01 INFO  Launcher:134 - showing queue
+2016-11-14 13:02:45 INFO  Launcher:134 - showing queue
+2016-11-14 13:02:49 INFO  Launcher:150 - showing size
+2016-11-14 13:02:49 INFO  Launcher:151 - queue size:0
+2016-11-14 13:02:54 INFO  Launcher:105 - starting procesor
+2016-11-14 13:02:54 INFO  Launcher:110 - cart size:0 is done: false
+2016-11-14 13:02:54 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:02:54 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:02:54 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:02:54 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:02:54 INFO  Processor:94 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:07:18 INFO  Launcher:150 - showing size
+2016-11-14 13:07:18 INFO  Launcher:151 - queue size:0
+2016-11-14 13:07:21 INFO  Launcher:105 - starting procesor
+2016-11-14 13:07:21 INFO  Launcher:110 - cart size:0 is done: false
+2016-11-14 13:07:21 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:07:38 INFO  Launcher:39 - Starting program
+2016-11-14 13:07:42 INFO  Launcher:100 - starting procesor
+2016-11-14 13:07:42 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:07:42 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:07:44 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:07:44 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:07:45 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:07:45 INFO  Processor:94 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:11:23 INFO  Launcher:39 - Starting program
+2016-11-14 13:11:34 INFO  Launcher:145 - showing size
+2016-11-14 13:11:34 INFO  Launcher:146 - queue size:0
+2016-11-14 13:11:38 INFO  Launcher:129 - showing queue
+2016-11-14 13:11:47 INFO  Launcher:100 - starting procesor
+2016-11-14 13:11:47 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:11:47 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:11:48 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:11:48 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:11:49 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:12:33 INFO  Launcher:39 - Starting program
+2016-11-14 13:12:36 INFO  Launcher:100 - starting procesor
+2016-11-14 13:12:36 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:12:36 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:12:38 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:12:38 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:12:39 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:12:39 INFO  Processor:94 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:12:52 INFO  Launcher:145 - showing size
+2016-11-14 13:12:52 INFO  Launcher:146 - queue size:0
+2016-11-14 13:13:24 INFO  Launcher:39 - Starting program
+2016-11-14 13:18:19 INFO  Launcher:100 - starting procesor
+2016-11-14 13:18:19 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:18:19 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:18:21 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:18:21 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:18:22 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:22:10 INFO  Launcher:39 - Starting program
+2016-11-14 13:22:16 INFO  Launcher:100 - starting procesor
+2016-11-14 13:22:16 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:22:16 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:23:10 INFO  Launcher:39 - Starting program
+2016-11-14 13:23:13 INFO  Launcher:100 - starting procesor
+2016-11-14 13:23:14 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:23:14 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:23:15 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:23:15 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:23:21 INFO  Processor:126 - Sending response done
+2016-11-14 13:23:21 INFO  Processor:130 - session closed
+2016-11-14 13:26:18 INFO  Launcher:100 - starting procesor
+2016-11-14 13:26:18 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:26:18 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:26:18 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:26:18 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:26:18 INFO  Processor:93 - 
+--- Message to be processed -------------
+
+2016-11-14 13:26:18 INFO  Processor:94 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:26:54 INFO  Launcher:39 - Starting program
+2016-11-14 13:27:34 INFO  Launcher:100 - starting procesor
+2016-11-14 13:27:34 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:27:34 INFO  Processor:61 - connecting qpid 
+2016-11-14 13:27:36 INFO  Processor:81 - Connected to topic addidas
+2016-11-14 13:27:36 INFO  Processor:82 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:29:02 INFO  Launcher:39 - Starting program
+2016-11-14 13:29:10 INFO  Launcher:100 - starting procesor
+2016-11-14 13:29:10 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:29:10 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:29:12 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:29:12 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:29:39 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:29:43 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:30:14 INFO  Launcher:39 - Starting program
+2016-11-14 13:30:17 INFO  Launcher:100 - starting procesor
+2016-11-14 13:30:17 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:30:17 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:30:19 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:30:19 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:30:22 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:30:22 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:34:27 INFO  Launcher:100 - starting procesor
+2016-11-14 13:34:27 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:34:27 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:34:41 INFO  Launcher:39 - Starting program
+2016-11-14 13:34:41 INFO  Launcher:100 - starting procesor
+2016-11-14 13:34:41 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:34:41 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:34:43 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:34:43 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:34:47 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:34:47 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:35:17 INFO  Launcher:39 - Starting program
+2016-11-14 13:35:20 INFO  Launcher:100 - starting procesor
+2016-11-14 13:35:20 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:35:20 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:35:23 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:35:23 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:35:26 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:35:26 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:35:32 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:36:00 INFO  Launcher:39 - Starting program
+2016-11-14 13:38:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 13:38:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 13:38:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 13:38:35 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-14 13:38:48 INFO  Launcher:39 - Starting program
+2016-11-14 13:38:52 INFO  Launcher:100 - starting procesor
+2016-11-14 13:38:52 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:38:52 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:38:54 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:38:54 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:38:55 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:38:55 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:38:55 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:44:51 INFO  Launcher:39 - Starting program
+2016-11-14 13:44:53 INFO  Launcher:100 - starting procesor
+2016-11-14 13:44:53 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:44:53 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:44:54 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:44:54 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:45:00 INFO  Processor:127 - Sending response done
+2016-11-14 13:45:00 INFO  Processor:131 - session closed
+2016-11-14 13:45:02 INFO  Launcher:145 - showing size
+2016-11-14 13:45:02 INFO  Launcher:146 - queue size:0
+2016-11-14 13:45:18 WARN  Launcher:167 - no valid option selected
+2016-11-14 13:45:21 INFO  Launcher:100 - starting procesor
+2016-11-14 13:45:21 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:45:21 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:45:21 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:45:21 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:45:21 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:45:21 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:45:21 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:46:44 INFO  Launcher:39 - Starting program
+2016-11-14 13:47:03 INFO  Launcher:100 - starting procesor
+2016-11-14 13:47:03 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:47:03 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:47:05 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:47:05 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:47:06 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:47:06 INFO  Processor:95 - java.lang.RuntimeException: javax.jms.MessageFormatException: Unable to deserialize message
+2016-11-14 13:47:06 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:47:45 INFO  Launcher:39 - Starting program
+2016-11-14 13:48:02 INFO  Launcher:100 - starting procesor
+2016-11-14 13:48:02 INFO  Launcher:105 - cart size:0 is done: false
+2016-11-14 13:48:02 INFO  Processor:62 - connecting qpid 
+2016-11-14 13:48:04 INFO  Processor:82 - Connected to topic addidas
+2016-11-14 13:48:04 INFO  Processor:83 - JMS Selector: category='shoes' OR category='sport' OR category= 'test'  
+2016-11-14 13:48:05 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:05 INFO  Processor:95 - Body:
+[Item{name=protectiveclothing, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1479127509045
+JMS expiration: 0
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:cf58170a-b7d1-3d79-a0e9-b38be1f8d72d
+JMS Content-Type: application/java-object-stream
+AMQ message number: 3
+Properties:
+	date = 14/11/2016 01:45:06
+	country = United Kingdom
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 22222222222222
+	itemsNumber = 1
+	name = Nicolas
+	subOrd = 2/2
+	id = 4
+	category = sport
+	budget = 505
+
+2016-11-14 13:48:05 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:11 INFO  Processor:120 - Message processed
+2016-11-14 13:48:11 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:11 INFO  Processor:95 - Body:
+[Item{name=protectiveclothing, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1479127509046
+JMS expiration: 2958257418090
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4f94c248-4cf5-387d-a796-ee8ab3833300
+JMS Content-Type: application/java-object-stream
+AMQ message number: 4
+Properties:
+	date = 14/11/2016 01:45:06
+	country = United Kingdom
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 22222222222222
+	itemsNumber = 1
+	name = Nicolas
+	subOrd = 2/2
+	id = 4
+	category = sport
+	budget = 505
+
+2016-11-14 13:48:11 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:14 INFO  Processor:120 - Message processed
+2016-11-14 13:48:14 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:14 INFO  Processor:95 - Body:
+[Item{name=braces, amount=5}, Item{name=gloves, amount=1}, Item{name=gloves, amount=1}, Item{name=discuses, amount=2}, Item{name=shoes, amount=8}, Item{name=pucks, amount=10}, Item{name=racehorses, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1479127515386
+JMS expiration: 0
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:6ef1dee9-7b5b-39c4-8b02-39b540321dab
+JMS Content-Type: application/java-object-stream
+AMQ message number: 5
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Slovenia
+	address = street 1
+	comments = It is needed for a conmemorative party 
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 1111111111
+	expDelivery = 14/11/2016 01:45:13
+	itemsNumber = 7
+	name = Xavier
+	subOrd = 4/4
+	id = 59
+	category = sport
+	budget = 349
+
+2016-11-14 13:48:14 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:18 INFO  Processor:120 - Message processed
+2016-11-14 13:48:18 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:18 INFO  Processor:95 - Body:
+[Item{name=braces, amount=5}, Item{name=gloves, amount=1}, Item{name=gloves, amount=1}, Item{name=discuses, amount=2}, Item{name=shoes, amount=8}, Item{name=pucks, amount=10}, Item{name=racehorses, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1479127515387
+JMS expiration: 2958257430771
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c5e1331a-2d49-355b-8ae0-ee29307235a7
+JMS Content-Type: application/java-object-stream
+AMQ message number: 6
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Slovenia
+	address = street 1
+	comments = It is needed for a conmemorative party 
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 1111111111
+	expDelivery = 14/11/2016 01:45:13
+	itemsNumber = 7
+	name = Xavier
+	subOrd = 4/4
+	id = 59
+	category = sport
+	budget = 349
+
+2016-11-14 13:48:18 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:20 INFO  Processor:120 - Message processed
+2016-11-14 13:48:20 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:20 INFO  Processor:95 - Body:
+[Item{name=raceskis, amount=2}, Item{name=testingdevices, amount=6}, Item{name=luges, amount=1}, Item{name=tapemeasures, amount=1}, Item{name=luges, amount=1}, Item{name=calibratingdevices, amount=9}, Item{name=sleds, amount=1}, Item{name=sleds, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1479127515683
+JMS expiration: 0
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:df5e4db2-9204-3895-b45f-022348c6b1fc
+JMS Content-Type: application/java-object-stream
+AMQ message number: 7
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Greece
+	address = street 4
+	comments = for birthday party 
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 999999999999
+	itemsNumber = 8
+	name = Laszlo
+	subOrd = 3/3
+	id = 83
+	category = sport
+	budget = 543
+
+2016-11-14 13:48:20 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:23 INFO  Processor:120 - Message processed
+2016-11-14 13:48:23 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:23 INFO  Processor:95 - Body:
+[Item{name=raceskis, amount=2}, Item{name=testingdevices, amount=6}, Item{name=luges, amount=1}, Item{name=tapemeasures, amount=1}, Item{name=luges, amount=1}, Item{name=calibratingdevices, amount=9}, Item{name=sleds, amount=1}, Item{name=sleds, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1479127515684
+JMS expiration: 2958257431365
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:993781e6-30af-3953-9fa9-a16309c20bf9
+JMS Content-Type: application/java-object-stream
+AMQ message number: 8
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Greece
+	address = street 4
+	comments = for birthday party 
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 999999999999
+	itemsNumber = 8
+	name = Laszlo
+	subOrd = 3/3
+	id = 83
+	category = sport
+	budget = 543
+
+2016-11-14 13:48:23 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:28 INFO  Processor:120 - Message processed
+2016-11-14 13:48:28 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:28 INFO  Processor:95 - Body:
+[Item{name=balls, amount=8}, Item{name=bicycles, amount=8}, Item{name=epees, amount=5}, Item{name=helmets, amount=4}, Item{name=rowboats, amount=2}]
+JMS Correlation ID: null
+JMS timestamp: 1479127516133
+JMS expiration: 0
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:260b1152-42d3-3c3d-b981-75bfeee5dd42
+JMS Content-Type: application/java-object-stream
+AMQ message number: 9
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Slovakia
+	address = marinara utca
+	comments = project stuff
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 44444444444444
+	itemsNumber = 5
+	name = Sally
+	subOrd = 5/5
+	id = 40
+	category = sport
+	budget = 551
+
+2016-11-14 13:48:28 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:32 INFO  Processor:120 - Message processed
+2016-11-14 13:48:32 INFO  Processor:94 - 
+--- Message to be processed -------------
+
+2016-11-14 13:48:32 INFO  Processor:95 - Body:
+[Item{name=balls, amount=8}, Item{name=bicycles, amount=8}, Item{name=epees, amount=5}, Item{name=helmets, amount=4}, Item{name=rowboats, amount=2}]
+JMS Correlation ID: null
+JMS timestamp: 1479127516133
+JMS expiration: 2958257432265
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: true
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:0623eb05-70d7-3fb1-a14e-67b59e4f976d
+JMS Content-Type: application/java-object-stream
+AMQ message number: 10
+Properties:
+	date = 14/11/2016 01:45:13
+	country = Slovakia
+	address = marinara utca
+	comments = project stuff
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 44444444444444
+	itemsNumber = 5
+	name = Sally
+	subOrd = 5/5
+	id = 40
+	category = sport
+	budget = 551
+
+2016-11-14 13:48:32 INFO  Processor:111 - 
+---end Message-------------------------
+
+2016-11-14 13:48:39 INFO  Processor:120 - Message processed

@@ -1,7 +1,7 @@
-package edu.elte.client;
+package elte.client.model;
 
-import edu.elte.singleBussiness.StoreOperations;
-import edu.elte.singleBussiness.StoreOperationsImpl;
+import elte.sportStore.singleBussiness.StoreOperations;
+import elte.sportStore.singleBussiness.StoreOperationsImpl;
 import java.io.File;
 import java.net.URL;
 import java.net.URLClassLoader;

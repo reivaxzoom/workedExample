@@ -1,10 +1,10 @@
 package elte.sportStore.view;
 
-import edu.elte.client.QueryProcessor;
+import elte.client.model.QueryProcessor;
 import elte.sportStore.model.RequestData;
-import edu.elte.client.threads.Processor;
-import edu.elte.client.threads.Response;
-import edu.elte.client.threads.Suscription;
+import elte.sportStore.threads.Processor;
+import elte.sportStore.threads.Response;
+import elte.sportStore.threads.Suscription;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -75,8 +75,6 @@ public class Launcher {
                         
                         break;
                     }
-                
-                
                 case "suscr":{
                     log.info("Register addidas");
                     new Suscription().addidas();
@@ -87,10 +85,7 @@ public class Launcher {
                     new Suscription().suscribeReplier();
                     break;
                 }
-                
-                
-                
-                
+
                 case "dboperations":{
                         log.info("processing regenerationDb");
                         new QueryProcessor().regenerateDb();

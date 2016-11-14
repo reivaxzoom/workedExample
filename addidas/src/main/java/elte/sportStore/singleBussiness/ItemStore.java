@@ -1,4 +1,4 @@
-package edu.elte.singleBussiness;
+package elte.sportStore.singleBussiness;
 
 import com.mysema.query.annotations.QueryEntity;
 import java.util.Objects;

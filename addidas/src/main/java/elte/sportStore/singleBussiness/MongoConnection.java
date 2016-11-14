@@ -1,4 +1,4 @@
-package edu.elte.singleBussiness;
+package elte.sportStore.singleBussiness;
 
 import com.mongodb.Mongo;
 import java.net.UnknownHostException;

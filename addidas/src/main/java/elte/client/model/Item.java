@@ -1,4 +1,4 @@
-package elte.sportStore.model;
+package elte.client.model;
 
 import java.io.Serializable;
 import javax.money.NumberValue;

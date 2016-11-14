@@ -1,4 +1,4 @@
-package edu.elte.client.threads;
+package elte.sportStore.threads;
 
 import elte.sportStore.view.Launcher;
 import java.io.IOException;

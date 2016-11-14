@@ -5,6 +5,9 @@
  */
 package edu.elte.singleBussiness;
 
+import elte.sportStore.singleBussiness.StoreOperationsImpl;
+import elte.sportStore.singleBussiness.StoreOperations;
+import elte.sportStore.singleBussiness.ItemStore;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.After;

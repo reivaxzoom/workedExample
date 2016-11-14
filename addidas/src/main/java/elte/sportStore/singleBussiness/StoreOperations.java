@@ -1,6 +1,6 @@
-package edu.elte.singleBussiness;
+package elte.sportStore.singleBussiness;
 
-import elte.sportStore.model.Item;
+import elte.client.model.Item;
 import java.util.List;
 
 /**

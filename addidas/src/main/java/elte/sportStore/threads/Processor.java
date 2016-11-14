@@ -1,10 +1,10 @@
-package edu.elte.client.threads;
+package elte.sportStore.threads;
 
-import elte.sportStore.model.Item;
+import elte.client.model.Item;
 import elte.sportStore.model.RequestData;
-import edu.elte.client.ShoppingCart;
-import edu.elte.singleBussiness.StoreOperations;
-import edu.elte.singleBussiness.StoreOperationsImpl;
+import elte.client.model.ShoppingCart;
+import elte.sportStore.singleBussiness.StoreOperations;
+import elte.sportStore.singleBussiness.StoreOperationsImpl;
 import elte.sportStore.view.Launcher;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -25,6 +25,7 @@ import javax.jms.Topic;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import org.apache.qpid.client.message.JMSObjectMessage;
 
 /**
  *
@@ -89,23 +90,23 @@ public class Processor implements Runnable {
             int minimum=2;
             int maximum=6;
             while ((message = (ObjectMessage) subscriber1.receive(timeout)) != null) {
-                ObjectMessage objMes = (ObjectMessage) message;
+                JMSObjectMessage objMes = (JMSObjectMessage) message;
                  log.info("\n--- Message to be processed -------------\n");
-                log.info(message);
+                log.info(objMes);
                  reqData = new RequestData();
                 reqData.setDate(new Date(objMes.getStringProperty("date")));
                 reqData.setId(objMes.getStringProperty("id"));
                 reqData.setAddress(objMes.getStringProperty("address"));
                 reqData.setComments(objMes.getStringProperty("comments"));
                 reqData.setPhone(objMes.getStringProperty("phone"));
-                reqData.setExpDelivery(new Date(objMes.getStringProperty("expDelivery")));
+//                reqData.setExpDelivery(new Date(objMes.getStringProperty("expDelivery")));
                 reqData.setPrio(objMes.getStringProperty("prio"));
                 reqData.setCountry(objMes.getStringProperty("country"));
                 reqData.setCategory(objMes.getStringProperty("category"));
                 reqData.setDeliverAddress(objMes.getStringProperty("deliverAddress"));
                 reqData.setBudget(Integer.valueOf(objMes.getStringProperty("budget")));
                 reqData.setSubOrd(objMes.getStringProperty("subOrd"));
-                reqData.setItemNumber(((ShoppingCart) (objMes.getObject())).size());
+//                reqData.setItemNumber(((ShoppingCart) (objMes.getObject())).size());
 //                reqData.setItems(objMes.getObject());
                 log.info("\n---end Message-------------------------\n");
             session.commit();

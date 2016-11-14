@@ -1,4 +1,4 @@
-package edu.elte.query;
+package elte.sportStore.query;
 
 /**
  *

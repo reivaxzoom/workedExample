@@ -1,6 +1,5 @@
-package edu.elte.client;
+package elte.client.model;
 
-import elte.sportStore.model.Item;
 import org.javamoney.moneta.FastMoney;
 
 /**

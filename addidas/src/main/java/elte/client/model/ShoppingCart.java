@@ -1,6 +1,5 @@
-package edu.elte.client;
+package elte.client.model;
 
-import elte.sportStore.model.Item;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;

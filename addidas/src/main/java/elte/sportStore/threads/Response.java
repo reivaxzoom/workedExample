@@ -1,16 +1,13 @@
-package edu.elte.client.threads;
+package elte.sportStore.threads;
 
-import oldcode.*;
-import elte.sportStore.model.Item;
+import elte.client.model.Item;
 import elte.sportStore.model.RequestData;
-import edu.elte.client.ShoppingCart;
-import edu.elte.singleBussiness.StoreOperations;
-import edu.elte.singleBussiness.StoreOperationsImpl;
+import elte.client.model.ShoppingCart;
+import elte.sportStore.singleBussiness.StoreOperations;
+import elte.sportStore.singleBussiness.StoreOperationsImpl;
 import elte.sportStore.view.Launcher;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.BlockingQueue;
@@ -18,7 +15,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
-import javax.jms.Destination;
 import javax.jms.JMSException;
 import javax.jms.MessageProducer;
 import javax.jms.ObjectMessage;
@@ -27,7 +23,6 @@ import javax.jms.Session;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import org.apache.qpid.client.AMQAnyDestination;
 
 /**
  *

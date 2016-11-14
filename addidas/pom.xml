@@ -8,7 +8,7 @@
         <version>1.4.0.RELEASE</version>
     </parent>
     <groupId>edu.elte</groupId>
-    <artifactId>addidas</artifactId>
+    <artifactId>sportStore</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <properties>
@@ -143,7 +143,7 @@
                     <archive>
                         <manifest>
                             <!--<addClasspath>true</addClasspath>-->
-                            <mainClass>edu.elte.view.Launcher</mainClass>
+                            <mainClass>elte.sportStore.view.Launcher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

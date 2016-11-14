@@ -1,4 +1,4 @@
-package edu.elte.query;
+package elte.sportStore.query;
 
 import com.querydsl.core.types.JavaTemplates;
 import com.querydsl.core.types.Operator;
