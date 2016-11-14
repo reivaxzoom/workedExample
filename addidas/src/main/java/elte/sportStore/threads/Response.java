@@ -7,6 +7,7 @@ import elte.sportStore.singleBussiness.StoreOperations;
 import elte.sportStore.singleBussiness.StoreOperationsImpl;
 import elte.sportStore.view.Launcher;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.time.Instant;
 import java.util.List;
 import java.util.Properties;
@@ -15,6 +16,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
+import javax.jms.Destination;
 import javax.jms.JMSException;
 import javax.jms.MessageProducer;
 import javax.jms.ObjectMessage;
@@ -23,6 +25,7 @@ import javax.jms.Session;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import org.apache.qpid.client.AMQAnyDestination;
 
 /**
  *
@@ -84,9 +87,9 @@ public class Response implements Runnable {
 //            Destination respQueue = (Destination) context.lookup(respQueueName);
             session = connection.createSession(true, Session.SESSION_TRANSACTED);
 //            Queue respQueue = (Queue) context.lookup(respQueueName);
-            Queue respQueue = session.createQueue(Launcher.respQueueName);
+//            Queue respQueue = session.createQueue(Launcher.respQueueName);
             
-//            Destination respQueue = new AMQAnyDestination("responrespQueueseQueue; {create: always}");
+            Destination respQueue = new AMQAnyDestination(Launcher.respQueueName+"; {create: always}");
 //            Destination queue = new AMQAnyDestination(respQueueName);
             producer = session.createProducer(respQueue);
 
@@ -112,6 +115,8 @@ public class Response implements Runnable {
                 log.info("no elements found");
             }
         } catch (JMSException | IOException | NamingException ex) {
+            Logger.getLogger(Response.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (URISyntaxException ex) {
             Logger.getLogger(Response.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
