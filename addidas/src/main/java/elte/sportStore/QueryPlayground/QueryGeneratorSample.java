@@ -1,4 +1,4 @@
-package elte.sportStore.query;
+package elte.sportStore.QueryPlayground;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Expression;
@@ -10,18 +10,39 @@ import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.core.types.dsl.NumberExpression;
 import com.querydsl.core.types.dsl.StringExpression;
+import elte.sportStore.query.JMSSelectorSerializer;
+import elte.sportStore.query.JMSTemplates;
 
 /**
  *
  * @author Xavier
  */
-public class QueryGenerator {
-        public static final String alias="rd";
-        private static final QRequestData rd = new QRequestData(alias);
-    
+public class QueryGeneratorSample {
+        private static final QRequestData rd = QRequestData.requestData;
         
+    
     public static void main(String[] args) {
-        QueryGenerator qg= new QueryGenerator();
+        QueryGeneratorSample qg= new QueryGeneratorSample();
+        
+         List<String> countries1 = Arrays.asList("Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom");
+        List formatedCountries = countries1.stream().map(x -> "'" + x + "'").collect(Collectors.toList());
+        BooleanBuilder bb = new BooleanBuilder(rd.country.in(formatedCountries));
+        
+        bb.and(rd.category.eq("sport").or(rd.category.eq("gym")).or(rd.category.eq("shoes")).or(rd.category.eq("beverages")).or(rd.category.eq("futbol")));
+        bb.and(rd.budget.between(100,200));
+        bb.and(rd.phone.startsWith("36"));
+        bb.and(rd.frecuent.isFalse());
+        
+        
+
+//         Jms like is not able to check wheter a word belogs to an argument or not, like only checks if it start or ends. 
+//         .comments.contains("party")
+//         bb.and(rd.comments.contains("party").or(rd.comments.contains("game")).or(rd.comments.contains("outdoor")));
+//         bb.and(rd.date)
+        System.out.println(qg.genQuery(bb));
+        
+        
+        
         Expression addidas=rd.category.eq("sport").or(rd.category.eq("shoes")).or(rd.category.eq("test"));
         System.out.println(qg.genQuery(addidas));
         Expression bestBuy=rd.category.eq("sport").or(rd.category.eq("shoes")).or(rd.category.eq("test"));
@@ -99,14 +120,6 @@ public class QueryGenerator {
         //start end with
         Expression stw=rd.category.startsWith("sp");
         System.out.println(qg.genQuery(stw));
-//        System.out.println(stw);
-//        Expression en d=rd.category.endsWith("rt");
-//        System.out.println(qg.genQuery(end));
-        
-        
-//        assertEquals("(a + b).toLowerCase()", str);
-        
-        
     }
     
     
@@ -117,44 +130,10 @@ public class QueryGenerator {
         return serializer.toString();
     }
     
-    
-    
-    
-     private String genQuery(Expression exp){
-//         CollQuerySerializer serializer = new CollQuerySerializer(CollQueryTemplates.DEFAULT);
+     public String genQuery(Expression exp){
         JMSSelectorSerializer serializer = new JMSSelectorSerializer(JMSTemplates.DEFAULT);
          serializer.handle(exp);
-        return serializer.toString() ;
-//         return  exp.accept(ToStringVisitor.DEFAULT, JMSTemplates.DEFAULT).toString().replace(alias+".", "");
-//         return  String.valueOf(exp.accept(ToStringVisitor.DEFAULT, JMSTemplates.DEFAULT));
+        return serializer.toString().replace("'true'", "TRUE").replace("'false'", "FALSE") ;
      }
      
-     
-     
-     
-//     private final BooleanExpression a = new BooleanPath("a");
-//    private final BooleanExpression b = new BooleanPath("b");
-//    private final BooleanExpression c = new BooleanPath("c");
-//     private NumberExpression<Integer> num;
-//    private DateExpression<Date> date;
-
-//    private void s1(){
-//          num = Expressions.numberPath(Integer.class, "num");
-//        str = Expressions.stringPath("str");
-//        date = Expressions.datePath(Date.class, "date");
-//        QueryMixin<?> query = new QueryMixin<Void>();
-//        System.out.println(query.from(num, str));
-//        
-//        
-////            QueryMixin<?> query = new QueryMixin<Void>();
-//            query.from(rd);
-//            query.orderBy(rd.category.asc());
-//            query.setProjection(rd.id);
-// 
-//            serialize(query.getMetadata(), JMSTemplates.DEFAULT);
-//            
-//            System.out.println(templates.getClass().getSimpleName());
-//            System.out.println();
-//     }
-    
 }

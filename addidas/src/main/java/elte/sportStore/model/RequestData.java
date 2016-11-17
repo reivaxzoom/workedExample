@@ -1,7 +1,10 @@
+
 package elte.sportStore.model;
 
-import com.querydsl.core.annotations.QueryEmbedded;
+import com.querydsl.core.annotations.PropertyType;
 import com.querydsl.core.annotations.QueryEntity;
+import com.querydsl.core.annotations.QueryTransient;
+import com.querydsl.core.annotations.QueryType;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -9,6 +12,7 @@ import java.util.Date;
  *
  * @author Xavier
  */
+
 @QueryEntity
 //@QueryEmbeddable
 //@QuerySupertype
@@ -17,43 +21,57 @@ public class RequestData {
 
         private String id;
         private String subOrd;
+        @QueryType(PropertyType.STRING)
         private String name;
         private String address;
         private String phone;
         private String country;
-        private String prio;
         private Date expDelivery;
         private String comments;
         private String deliverAddress;
+        @QueryType(PropertyType.DATE)
         private Date date;
-        private Integer budget;
-        private int itemsNumber;
-        @QueryEmbedded
+        @QueryType(PropertyType.NUMERIC)
+        private short budget;
         private String category;
-        private Integer itemNumber;
+        private Boolean frecuent;
+        @QueryTransient 
+        private int itemNumber;
+        @QueryTransient 
         private Object items;
 
     public RequestData() {
     }
+    
+    
+    
 
     public RequestData(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Integer getBudget() {
+    public Boolean getFrecuent() {
+        return frecuent;
+    }
+
+    public void setFrecuent(Boolean frecuent) {
+        this.frecuent = frecuent;
+    }
+
+    public short getBudget() {
         return budget;
     }
 
-    public void setBudget(Integer budget) {
+    public void setBudget(short budget) {
         this.budget = budget;
     }
 
-    public Integer getItemNumber() {
+    public int getItemNumber() {
         return itemNumber;
     }
 
-    public void setItemNumber(Integer itemNumber) {
+    public void setItemNumber(int itemNumber) {
         this.itemNumber = itemNumber;
     }
 
@@ -81,13 +99,6 @@ public class RequestData {
         this.date = date;
     }
 
-   public int getItemsNumber() {
-        return itemsNumber;
-    }
-
-    public void setItemsNumber(int itemsNumber) {
-        this.itemsNumber = itemsNumber;
-    }
     public RequestData(String id) {
         this.id = id;
     }
@@ -133,14 +144,6 @@ public class RequestData {
         this.country = country;
     }
 
-    public String getPrio() {
-        return prio;
-    }
-
-    public void setPrio(String prio) {
-        this.prio = prio;
-    }
-
     public String getComments() {
         return comments;
     }
@@ -175,7 +178,7 @@ public class RequestData {
 
     @Override
     public String toString() {
-        return "RequestData{" + "id=" + id + ", address=" + address + ", country=" + country + ", prio=" + prio + ", expDelivery=" + dateFormat.format(expDelivery) + ", category=" + category + ", itemNumber=" + itemNumber + ", items=" + items + '}';
+        return "RequestData{" + "id=" + id + ", address=" + address + ", country=" + country + ",expDelivery=" + dateFormat.format(expDelivery) + ", category=" + category + ", itemNumber=" + itemNumber + ", items=" + items + '}';
     }
 }
         

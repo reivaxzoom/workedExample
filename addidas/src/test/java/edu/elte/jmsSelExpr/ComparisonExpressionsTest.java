@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.elte.jmsSelExpr;
 
 import com.querydsl.core.types.Expression;
@@ -10,7 +5,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *
+ * Provides comparison examples for greater and lower than, and aritmetical operations
+ * supported by JMS selectors
  * @author Xavier
  */
 public class ComparisonExpressionsTest extends AbstractExpressionTest {

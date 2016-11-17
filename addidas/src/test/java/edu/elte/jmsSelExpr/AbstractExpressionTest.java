@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.elte.jmsSelExpr;
 
 import com.querydsl.core.types.Expression;
@@ -14,19 +9,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//import static QRequestData.*;
-
 /**
- *
+ * Provides the basic skeleton for queries 
  * @author Xavier
  */
 class AbstractExpressionTest {
     
-     public static final String alias = "rd";
-    protected static final QRequestData rd = new QRequestData(alias);
-    protected static final QRequestData rd1 = new QRequestData("rd1");
+    protected static final QRequestData rd = QRequestData.requestData;
     
-//    category.eq("aa").and(budget.between(1,100))
      protected BooleanExpression sp = rd.category.eq("sport");
      protected BooleanExpression sh = rd.category.eq("shoes");
      protected BooleanExpression ts = rd.category.eq("test");

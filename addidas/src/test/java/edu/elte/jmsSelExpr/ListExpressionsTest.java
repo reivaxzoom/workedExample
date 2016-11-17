@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.elte.jmsSelExpr;
 
 import com.querydsl.core.types.Expression;
-import com.querydsl.core.types.dsl.Expressions;
-import com.querydsl.core.types.dsl.StringExpression;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *
+ * Provide examples for connectors in, like between, is null, and startWith
  * @author Xavier
  */
 public class ListExpressionsTest extends AbstractExpressionTest {
@@ -54,7 +47,6 @@ public class ListExpressionsTest extends AbstractExpressionTest {
 
     }
     
-    
     @Test
     public void isNull(){
         Expression nul=rd.comments.isNull();
@@ -65,12 +57,12 @@ public class ListExpressionsTest extends AbstractExpressionTest {
     public void starWith(){
         
         Expression stw=rd.category.startsWith("sp");
-        Assert.assertEquals("category LIKE sp%", serialize(stw));
+        Assert.assertEquals("category LIKE 'sp%'", serialize(stw));
     }
     
     @Test
     public void endWith(){
         Expression end=rd.category.endsWith("rt");
-        Assert.assertEquals("category LIKE %rt", serialize(end));
+        Assert.assertEquals("category LIKE '%rt'", serialize(end));
     }
 }

@@ -1,48 +1,21 @@
-/*
- * Copyright 2015, The Querydsl Team (http://www.querydsl.com/team)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * http://www.apache.org/licenses/LICENSE-2.0
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package elte.edu.samples;
 
 import elte.sportStore.model.RequestData;
 import com.querydsl.collections.*;
 import static com.querydsl.collections.CollQueryFactory.from;
-import com.querydsl.core.Query;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 import org.junit.Test;
 
 import com.querydsl.core.Tuple;
 import static com.querydsl.core.alias.Alias.var;
-import com.querydsl.core.types.Expression;
-import com.querydsl.core.types.Ops;
 import com.querydsl.core.types.dsl.Expressions;
-import com.querydsl.core.types.dsl.NumberExpression;
 import com.querydsl.core.types.dsl.NumberPath;
 import com.querydsl.core.types.dsl.StringPath;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Locale;
 import static org.junit.Assert.assertEquals;
-//import com.mysema.query.sql.SQLTemplates;
 
 public class CollQueryTest extends AbstractQueryTest {
 
@@ -52,10 +25,6 @@ public class CollQueryTest extends AbstractQueryTest {
         AbstractCollQuery q=query().from(rq, characters).where(rq.address.eq("tazmania"));
         
     }
-    
-    
-    
-    
     
     /**
      * Testing basic queries: where, and  
@@ -67,23 +36,19 @@ public class CollQueryTest extends AbstractQueryTest {
         taz.setCountry("Australia");
         taz.setAddress("tazmania");
         taz.setComments("Acme products");
-        taz.setPrio("High");
         
         bugs.setCountry("Hungary");
         bugs.setAddress("forest");
         bugs.setComments("only carrots");
-        bugs.setPrio("High");
                 
         
         daffy.setCountry("USA");
         daffy.setAddress("north forest");
         daffy.setComments("bank note machines");
-        daffy.setPrio("High");
         
         elmer.setCountry("Hungary");
         elmer.setAddress("city");
         elmer.setComments("hunting material");
-        elmer.setPrio("Low");
         
         
         List<RequestData> characters =Arrays.asList(taz,bugs,daffy,elmer);
@@ -98,32 +63,18 @@ public class CollQueryTest extends AbstractQueryTest {
                 query().from(rq, characters).where(rq.country.in("Hungary","Ecuador","USA")).fetch());
         
         
-        assertEquals(Arrays.asList("xavier","bugs","daffy"),
-                query().from(rq, characters).where(rq.prio.matches("Hi.*")).select(rq.name).fetch());
+        assertEquals(Arrays.asList("bugs"),
+                query().from(rq, characters).where(rq.comments.matches("only.*")).select(rq.name).fetch());
         
         assertEquals(Arrays.asList("xavier","bugs","daffy"),
         query().from(rq, characters).where(rq.name.ne(elmer.getName())).select(rq.name).fetch());
-        
-      
-        
-        
-//        assertEquals(Arrays.asList({"xavier","tazmania"},{"bugs","forest"},{"daffy","north forest"}),
-//        query().from(rq, characters).where(rq.name.ne(elmer.getName())).select(rq.name,rq.address).fetch());
-        
-        
-        
     }
-    
-    
-    
-
     
        @Test
     public void various4() {
         assertEquals(Arrays.asList(1, 2, "aaaa", 3),
                 from(var(), 1, 2, 5, "aaaa", 3).where(var().ne(5)).select(var()).fetch());
     }
-    
     
        @Test
     public void various6() {
@@ -137,7 +88,6 @@ public class CollQueryTest extends AbstractQueryTest {
         assertEquals(Arrays.asList(1, 2, 3),
                 from(num, 1, 2, 3, 4).where(num.loe(3)).select(num).fetch());
     }
-
 
 //    @Test
 //    public void after_and_before() throws ParseException {

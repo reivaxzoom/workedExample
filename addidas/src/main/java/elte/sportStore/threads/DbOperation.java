@@ -1,4 +1,4 @@
-package elte.client.model;
+package elte.sportStore.threads;
 
 import elte.sportStore.singleBussiness.StoreOperations;
 import elte.sportStore.singleBussiness.StoreOperationsImpl;
@@ -9,11 +9,11 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 
-public class QueryProcessor {
-    static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(QueryProcessor.class.getName());
-    StoreOperations stOps;
+public class DbOperation {
+    private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(DbOperation.class.getName());
+    private static StoreOperations stOps;
     
-    public void regenerateDb() {
+    public static void regenerateDb() {
         stOps = new StoreOperationsImpl();
         log.info("removing database");
         stOps.removeAllListItems();
@@ -22,7 +22,7 @@ public class QueryProcessor {
         stOps.findAllItems().stream().forEach(System.out::println);
     }
 
-    public void displayrConf() {
+    public static void displayrConf() {
       String path="";
         try {
             log.info("Displaing configuration");

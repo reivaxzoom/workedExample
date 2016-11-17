@@ -13,7 +13,6 @@ import javax.jms.JMSException;
 import javax.jms.MessageConsumer;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
-import javax.jms.TextMessage;
 import javax.jms.Topic;
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -27,14 +26,13 @@ import org.apache.qpid.client.AMQAnyDestination;
 public class Suscription {
     
     static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Suscription.class.getName());
-     
-    public void addidas() {
 
+    public static void suscribeTopic(String topicName, String selector ) {
         Session session = null;
         Connection connection = null;
         try {
             Properties properties = new Properties();
-            properties.load(this.getClass().getClassLoader().getResourceAsStream("message.properties"));
+            properties.load(Suscription.class.getClassLoader().getResourceAsStream("message.properties"));
             Context context = new InitialContext(properties);
 
             javax.jms.ConnectionFactory connectionFactory = (javax.jms.ConnectionFactory) context.lookup("localConnectionFactory");
@@ -43,8 +41,8 @@ public class Suscription {
 
             session = connection.createSession(true, Session.SESSION_TRANSACTED);
             Topic requestTopic = session.createTopic("requestTopic");
-//            MessageConsumer subscriber1 = session.createDurableSubscriber(requestTopic, "addidas");
-            MessageConsumer subscriber1 = session.createDurableSubscriber(requestTopic, "addidas", Launcher.addidasSelector,true);
+//            MessageConsumer subscriber1 = session.createDurableSubscriber(requestTopic, "suscribeTopic");
+            MessageConsumer subscriber1 = session.createDurableSubscriber(requestTopic, topicName, selector,true);
             javax.jms.Message message;
 
             int receivedMsg = 0;
@@ -56,12 +54,8 @@ public class Suscription {
             }
 
             session.commit();
-
-//          session.unsubscribe("tesco");       
             session.close();
             connection.close();
-//                Assert.assertEquals(numberSampleMessages,receivedMsg);
-
         } catch (JMSException ex) {
             Logger.getLogger(Suscription.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException | NamingException ex) {
@@ -71,7 +65,7 @@ public class Suscription {
  
     
     
-    public void suscribeReplier()   {
+    public static void suscribeReplier(String queue)   {
         MessageProducer producer = null;
         Session session = null;
         Connection connection = null;
@@ -79,7 +73,7 @@ public class Suscription {
         Context context = null;
         try {
          Properties properties = new Properties();
-            properties.load(getClass().getClassLoader().getResourceAsStream("message.properties"));
+            properties.load(Suscription.class.getClassLoader().getResourceAsStream("message.properties"));
             context = new InitialContext(properties);
 
             ConnectionFactory connectionFactory = (ConnectionFactory) context.lookup("localConnectionFactory");
@@ -87,10 +81,10 @@ public class Suscription {
             connection.start();
             session = connection.createSession(true, Session.SESSION_TRANSACTED);
             
-            Destination respQueue = new AMQAnyDestination(Launcher.respQueueName +"; {create: always}");
+            Destination respQueue = new AMQAnyDestination(queue +"; {create: always}");
             producer = session.createProducer(respQueue);
 
-            log.info("Connected to queue " + Launcher.respQueueName);
+            log.info("Connected to queue " + queue);
 //                TextMessage m = session.createTextMessage("test");
 //                producer.send((javax.jms.Message) m);
         } catch (JMSException | IOException | NamingException |URISyntaxException ex) {
@@ -106,6 +100,32 @@ public class Suscription {
             }
         }
     }
+
+    public static void unsuscriberTopic(String destination) {
+        Session session = null;
+        Connection connection = null;
+        try {
+            Properties properties = new Properties();
+            properties.load(Suscription.class.getClassLoader().getResourceAsStream("message.properties"));
+            Context context = new InitialContext(properties);
+
+            javax.jms.ConnectionFactory connectionFactory = (javax.jms.ConnectionFactory) context.lookup("localConnectionFactory");
+            connection = connectionFactory.createConnection();
+            connection.start();
+
+            session = connection.createSession(true, Session.SESSION_TRANSACTED);
+           session.unsubscribe(destination);       
+            session.commit();
+            session.close();
+            connection.close();
+        } catch (JMSException ex) {
+            Logger.getLogger(Suscription.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException | NamingException ex) {
+            Logger.getLogger(Suscription.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    
     
     
     

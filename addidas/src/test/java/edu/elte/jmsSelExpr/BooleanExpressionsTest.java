@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.elte.jmsSelExpr;
 
-/**
- *
- * @author Xavier
- */
 import org.junit.Test;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Expression;
@@ -23,6 +14,11 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 import org.junit.Assert;
 
+/**
+ * Provides boolean expression constructor examples with operations such as:
+ * or, and, it meet JMS selector compliance
+ * @author Xavier
+ */
 public class BooleanExpressionsTest extends AbstractExpressionTest{
 
     @Test
@@ -99,31 +95,18 @@ public class BooleanExpressionsTest extends AbstractExpressionTest{
          BooleanBuilder bb1 = new BooleanBuilder();
 
          bb1.not();
-//         QRequestData.requestData.category
-//         BooleanExpression query = category.eq("").and(exp).
-//         andInline.not();
-//         
-//         category
-//         rd.category
-//         QRequestData.category
-//         QRw
-//         Expressions.not(andInline);
-//         not(andInline);
          bb1.or(rd.category.eq("sport")).or(rd.category.eq("shoes")).or(rd.category.eq("test"));
          
-         
-//         bb1.not();
          assertThat(serialize(andAll),is(allOf( equalTo(serialize(bb1)), equalTo(serialize(andInline)),equalTo(serialize(bb)),notNullValue())));
     }
     
     @Test
     public void andOr(){
          BooleanExpression bdg = rd.budget.between(100,500);
-         BooleanExpression itn = rd.itemsNumber.gt(5);
+         BooleanExpression itn = rd.budget.gt(100);
          BooleanBuilder builder = new BooleanBuilder(sp);
          builder.and(bdg.or(itn)).andNot(ts);
-//         System.out.println(serialize(builder));
-         assertEquals("category = 'sport' AND  ((budget  BETWEEN  100 AND 500) OR itemsNumber > 5) AND  NOT (category = 'test')", serialize(builder));
+         assertEquals("category = 'sport' AND  ((budget  BETWEEN  100 AND 500) OR budget > 100) AND  NOT (category = 'test')", serialize(builder));
     }
     
     
@@ -138,7 +121,6 @@ public class BooleanExpressionsTest extends AbstractExpressionTest{
     public void orNot(){
         BooleanBuilder b1 = new BooleanBuilder(sp);
         b1.orNot(ts);
-//        b1.or(sh)
         System.out.println(serialize(b1));
         Assert.assertEquals("category = 'sport' OR NOT (category = 'test')", serialize(b1));
     }

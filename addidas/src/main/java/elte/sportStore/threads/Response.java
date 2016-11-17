@@ -20,7 +20,6 @@ import javax.jms.Destination;
 import javax.jms.JMSException;
 import javax.jms.MessageProducer;
 import javax.jms.ObjectMessage;
-import javax.jms.Queue;
 import javax.jms.Session;
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -30,7 +29,7 @@ import org.apache.qpid.client.AMQAnyDestination;
 /**
  *
  */
-public class Response implements Runnable {
+public class Response  {
 
     static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Response.class.getName());
     private final BlockingQueue<RequestData> queue;
@@ -43,9 +42,10 @@ public class Response implements Runnable {
         this.queue = queue;
     }
 
-    @Override
-    public void run() {
-        log.info("starting consumer");
+    
+    
+    public void startConsumer(){
+         log.info("starting consumer");
 
 //        while (true) {
         if(!queue.isEmpty()){

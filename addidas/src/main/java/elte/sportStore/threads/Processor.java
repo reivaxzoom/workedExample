@@ -31,12 +31,13 @@ import org.apache.qpid.client.message.JMSObjectMessage;
  *
  * @author Xavier
  */
-public class Processor implements Runnable {
+public class Processor  {
     
     static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Processor.class.getName());
 
-    RequestData reqData ;
-    StoreOperations stOps;
+    private RequestData reqData ;
+    private  StoreOperations stOps;
+    private final String selector;
     
      private final BlockingQueue<RequestData> queue;
     
@@ -44,15 +45,11 @@ public class Processor implements Runnable {
     static SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss");
 
     
-     public Processor(BlockingQueue<RequestData> queue) {
+     public Processor(BlockingQueue<RequestData> queue, String selector) {
         this.queue = queue;
+        this.selector=selector;
     }
     
-    
-    @Override
-    public void run() {
-        consumeAll();
-    }
     
      public void consumeAll() {
 
@@ -72,7 +69,7 @@ public class Processor implements Runnable {
             session = connection.createSession(true, Session.AUTO_ACKNOWLEDGE);
             
              Topic destination = (Topic) context.lookup(Launcher.reqTopicName);
-             MessageConsumer subscriber1 = session.createDurableSubscriber(destination,Launcher.topicName, Launcher.addidasSelector,false);
+             MessageConsumer subscriber1 = session.createDurableSubscriber(destination,Launcher.topicName, this.selector,false);
              
             
 //            Topic requestTopic = session.createTopic(Launcher.reqTopicName);
@@ -80,15 +77,14 @@ public class Processor implements Runnable {
              
             
             log.info("Connected to topic "+Launcher.topicName);
-            log.info("JMS Selector: "+Launcher.addidasSelector);
+            log.info("JMS Selector: "+selector);
 
             stOps = new StoreOperationsImpl();
             ObjectMessage message;
             context.close();
             long timeout = 5000;
-            int receivedMsg = 0;
             int minimum=2;
-            int maximum=6;
+            int maximum=3;
             while ((message = (ObjectMessage) subscriber1.receive(timeout)) != null) {
                 JMSObjectMessage objMes = (JMSObjectMessage) message;
                  log.info("\n--- Message to be processed -------------\n");
@@ -99,15 +95,14 @@ public class Processor implements Runnable {
                 reqData.setAddress(objMes.getStringProperty("address"));
                 reqData.setComments(objMes.getStringProperty("comments"));
                 reqData.setPhone(objMes.getStringProperty("phone"));
-//                reqData.setExpDelivery(new Date(objMes.getStringProperty("expDelivery")));
-                reqData.setPrio(objMes.getStringProperty("prio"));
+                reqData.setExpDelivery(new Date(objMes.getStringProperty("expDelivery")));
                 reqData.setCountry(objMes.getStringProperty("country"));
                 reqData.setCategory(objMes.getStringProperty("category"));
                 reqData.setDeliverAddress(objMes.getStringProperty("deliverAddress"));
-                reqData.setBudget(Integer.valueOf(objMes.getStringProperty("budget")));
+                reqData.setBudget(Short.valueOf(objMes.getStringProperty("budget")));
                 reqData.setSubOrd(objMes.getStringProperty("subOrd"));
-//                reqData.setItemNumber(((ShoppingCart) (objMes.getObject())).size());
-//                reqData.setItems(objMes.getObject());
+                reqData.setItemNumber(((ShoppingCart) (objMes.getObject())).size());
+                reqData.setItems(objMes.getObject());
                 log.info("\n---end Message-------------------------\n");
             session.commit();
             
@@ -122,7 +117,7 @@ public class Processor implements Runnable {
                 queue.put(reqData);
                 
 //                sendMessages(resultCart);
-                receivedMsg = receivedMsg + 1;
+//                receivedMsg = receivedMsg + 1;
             }
             log.info("Sending response done");
             subscriber1.close();
