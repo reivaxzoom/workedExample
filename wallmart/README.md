@@ -1,9 +1,0 @@
-# Wallmart Bussines Server  
-Sample bussiness case for jms
-
-
-# run process Wallmart
- java -jar wallmart-1.0.jar process -c=10 r
-
-
-c -> number of shopping carts

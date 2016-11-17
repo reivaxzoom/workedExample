@@ -104041,3 +104041,7 @@ Properties:
 2016-11-17 17:20:07 INFO  Launcher:106 - starting procesor
 2016-11-17 17:20:07 INFO  Launcher:114 - cart size:4 is done: false
 2016-11-17 17:20:07 INFO  Processor:59 - connecting qpid 
+2016-11-17 20:23:08 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 20:23:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 20:23:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 20:23:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 

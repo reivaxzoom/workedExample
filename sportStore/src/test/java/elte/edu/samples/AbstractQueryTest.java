@@ -2,13 +2,13 @@ package elte.edu.samples;
 
 import elte.sportStore.model.RequestData;
 import com.querydsl.collections.*;
+import com.querydsl.core.DefaultQueryMetadata;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Before;
 
-import com.querydsl.core.DefaultQueryMetadata;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.alias.Alias;
 import com.querydsl.core.types.Expression;
