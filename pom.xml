@@ -9,8 +9,6 @@
     
     <modules>
         <module>sportStore</module>
-        <module>bestBuy</module>
-        <module>wallmart</module>
         <module>electronicStore</module>
         <module>supermarket</module>
     </modules>
