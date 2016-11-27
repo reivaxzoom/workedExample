@@ -34,7 +34,7 @@ public class QueryGeneratorSample {
         bb.and(rd.frecuent.isFalse());
         
         
-
+    
 //         Jms like is not able to check wheter a word belogs to an argument or not, like only checks if it start or ends. 
 //         .comments.contains("party")
 //         bb.and(rd.comments.contains("party").or(rd.comments.contains("game")).or(rd.comments.contains("outdoor")));

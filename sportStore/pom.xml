@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <!-- Your own application should inherit from spring-boot-starter-parent -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.0.RELEASE</version>
+        <version>1.4.2.RELEASE</version>
+        <relativePath/><!-- lookup parent from repository -->
     </parent>
     <groupId>edu.elte</groupId>
     <artifactId>sportStore</artifactId>
@@ -16,7 +16,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <!--<skipTests>true</skipTests>-->
-        
     </properties>
             
     <dependencies>
@@ -30,32 +29,35 @@
         <!--querydsl libraries-->
         <dependency>
             <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-codegen</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.querydsl</groupId>
             <artifactId>querydsl-apt</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
         </dependency>
-    
-    
-        <!-- test -->
-
         <dependency>
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-core</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-collections</artifactId>
+            <version>4.1.4</version>
+        </dependency>
+
+    
+    
+        <!-- test -->
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-core</artifactId>
+            <version>4.1.4</version>
             <scope>test</scope>
             <type>test-jar</type>
         </dependency>
         
-        
+    
         
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
-            <version>1.3</version>
+            <!--<version>1.3</version>-->
             <optional>true</optional>
         </dependency>    
     
@@ -106,11 +108,6 @@
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.mysema.querydsl</groupId>
-            <artifactId>querydsl-apt</artifactId>
-            <version>3.6.6</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.qpid</groupId>
             <artifactId>qpid-client</artifactId>
             <version>6.0.2</version>
@@ -120,22 +117,21 @@
             <artifactId>geronimo-jms_1.1_spec</artifactId>
             <version>1.1.1</version>
         </dependency>
-        
         <dependency>
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-sql</artifactId>
             <version>4.1.4</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-collections</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
     </dependencies>
     
+    
+    <repositories>
+        <repository>
+            <id>query-collections</id>
+            <url>http://repo.maven.apache.org/maven2/com/querydsl/querydsl-collections/</url>
+        </repository>
+    </repositories>
     
     
     <build>
@@ -169,28 +165,32 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>    
+            </plugin>
             
-            <!--            <plugin>
-                <groupId>com.mysema.maven</groupId>
-                <artifactId>apt-maven-plugin</artifactId>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <finalName>sportStore</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <archive>
+                        <manifest>
+                            <mainClass>elte.sportStore.view.Launcher</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
                 <executions>
                     <execution>
+                        <phase>package</phase>
                         <goals>
-                            <goal>test-process</goal>
-                            <goal>add-test-sources</goal>              
-                        </goals>            
-                        <configuration>
-                            <outputDirectory>target/generated-test-sources/java</outputDirectory>
-                            <processor>com.querydsl.apt.QuerydslAnnotationProcessor</processor>
-                            <showWarnings>true</showWarnings>
-                        </configuration>        
+                            <goal>single</goal>
+                        </goals>
                     </execution>
                 </executions>
-            </plugin>   -->
+            </plugin>
+                        
         </plugins>
     </build>
-    
-    
-    
 </project>
