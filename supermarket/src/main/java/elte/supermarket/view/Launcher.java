@@ -13,7 +13,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutionException;
@@ -24,7 +23,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
 import org.apache.log4j.Priority;
 
 /**
@@ -35,10 +33,7 @@ public class Launcher {
 
     static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Launcher.class.getName());
     final static String[] options ={"reply","process", "suscr","susreply","unsuscrTopic","unsuscrQueue","show","size","dboperations","conf","shutdown","cancelProcess","cancelReplier","help","exit" };
-    
-    
-    
-    
+
     static ExecutorService executor = Executors.newFixedThreadPool(2);
 
 //     public static final String addidasSelector = "rd.category = 'sport' OR rd.category = 'shoes' OR rd.category = 'test'";
@@ -51,19 +46,12 @@ public class Launcher {
         QRequestData rd = QRequestData.requestData;
         QueryGeneratorSample qg = new QueryGeneratorSample();
 
-//        Expression query=rd.category.eq("sport").or(rd.category.eq("soccer")).and(rd.country.eq("Hungary").or(rd.country.eq("France")).or(rd.country.eq("Germany"))).and(rd.itemNumber.goe(2));
-//        return qg.genQuery(query);
-        List<String> countries = Arrays.asList("Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom");
-        List formatedCountries = countries.stream().map(x -> "'" + x + "'").collect(Collectors.toList());
-        BooleanBuilder bb = new BooleanBuilder(rd.country.in(formatedCountries));
-        bb.and(rd.category.eq("sport").or(rd.category.eq("gym")).or(rd.category.eq("shoes")).or(rd.category.eq("beverages")).or(rd.category.eq("futbol")));
+        BooleanBuilder bb = new BooleanBuilder(rd.country.in("Hungary","Italy"));
+        bb.and(rd.category.eq("food").or(rd.category.eq("beverages")).or(rd.category.eq("fruit")).or(rd.category.eq("other")));
+        bb.and(rd.country.in("Hungary","Italy"));
         bb.and(rd.date.isNotNull());
-        bb.and(rd.budget.between(10,600));
-        bb.and(rd.phone.startsWith("36"));
-        bb.and(rd.frecuent.isTrue());
+        bb.and(rd.budget.goe(10));
         
-        
-
 //         Jms like is not able to check wheter a word belogs to an argument or not, like only checks if it start or ends. 
 //         .comments.contains("party")
 //         bb.and(rd.comments.contains("party").or(rd.comments.contains("game")).or(rd.comments.contains("outdoor")));
@@ -81,7 +69,8 @@ public class Launcher {
         queue = new ArrayBlockingQueue<>(100);
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter some text, or '" + "exit" + "' to quit");
+        System.out.println("Welcome to supermarket\n");
+        System.out.println("Enter some text, or '" + "exit" + "' to quit or help to show options");
         Future fprocess = null;
         Future freply = null;
 

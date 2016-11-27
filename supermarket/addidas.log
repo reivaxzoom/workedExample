@@ -104053,3 +104053,47 @@ Properties:
 2016-11-17 21:22:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-17 21:22:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-17 21:22:03 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:20:22 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:20:22 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:20:23 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:20:23 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:15 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:15 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:32:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:38:03 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:38:04 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:38:04 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 13:38:05 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:20:08 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:20:08 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:20:08 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:20:09 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:53 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:54 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:54 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:55 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:44:39 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:44:40 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:44:40 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:44:40 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:44:58 INFO  Launcher:72 - Starting program
+2016-11-27 14:49:15 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:37 INFO  Launcher:67 - Starting program
+2016-11-27 14:50:11 INFO  Launcher:128 - showing queue
+2016-11-27 14:50:17 INFO  Launcher:128 - showing queue
+2016-11-27 14:50:27 INFO  Launcher:107 - Register topic: sportStore
+2016-11-27 14:50:27 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-27 14:51:43 INFO  Launcher:107 - Register topic: sportStore
+2016-11-27 14:51:43 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-27 14:56:06 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:56:06 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:56:07 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:56:07 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
