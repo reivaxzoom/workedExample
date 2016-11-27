@@ -5,7 +5,8 @@
         <!-- Your own application should inherit from spring-boot-starter-parent -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.0.RELEASE</version>
+        <version>1.4.2.RELEASE</version>
+         <relativePath/>
     </parent>
     <groupId>edu.elte</groupId>
     <artifactId>electronicStore</artifactId>
@@ -27,25 +28,27 @@
             <version>1.2.17</version>
         </dependency>
         
-        <!--querydsl libraries-->
-        <dependency>
-            <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-codegen</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
-        </dependency>
+ <!--querydsl libraries-->
         <dependency>
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-apt</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-collections</artifactId>
+            <version>4.1.4</version>
         </dependency>
     
     
         <!-- test -->
-
         <dependency>
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-core</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
+            <version>4.1.4</version>
             <scope>test</scope>
             <type>test-jar</type>
         </dependency>
@@ -106,11 +109,6 @@
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.mysema.querydsl</groupId>
-            <artifactId>querydsl-apt</artifactId>
-            <version>3.6.6</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.qpid</groupId>
             <artifactId>qpid-client</artifactId>
             <version>6.0.2</version>
@@ -127,13 +125,6 @@
             <version>4.1.4</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-collections</artifactId>
-            <version>4.1.5.BUILD-SNAPSHOT</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
     </dependencies>
     
     
@@ -148,7 +139,7 @@
                     <archive>
                         <manifest>
                             <!--<addClasspath>true</addClasspath>-->
-                            <mainClass>elte.sportStore.view.Launcher</mainClass>
+                            <mainClass>elte.electronicStore.view.Launcher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -171,23 +162,29 @@
                 </executions>
             </plugin>    
             
-            <!--            <plugin>
-                <groupId>com.mysema.maven</groupId>
-                <artifactId>apt-maven-plugin</artifactId>
+           <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <finalName>electronicStore</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <archive>
+                        <manifest>
+                            <mainClass>elte.electronicStore.view.Launcher</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
                 <executions>
                     <execution>
+                        <phase>package</phase>
                         <goals>
-                            <goal>test-process</goal>
-                            <goal>add-test-sources</goal>              
-                        </goals>            
-                        <configuration>
-                            <outputDirectory>target/generated-test-sources/java</outputDirectory>
-                            <processor>com.querydsl.apt.QuerydslAnnotationProcessor</processor>
-                            <showWarnings>true</showWarnings>
-                        </configuration>        
+                            <goal>single</goal>
+                        </goals>
                     </execution>
                 </executions>
-            </plugin>   -->
+            </plugin>
         </plugins>
     </build>
     

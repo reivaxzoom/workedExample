@@ -104049,3 +104049,43 @@ Properties:
 2016-11-17 21:11:55 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-17 21:11:55 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-17 21:11:56 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:33:01 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:33:01 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:33:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:33:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:34:52 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:34:52 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:34:52 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:34:53 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:35:38 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:35:38 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:35:38 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-17 21:35:39 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:18:59 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:18:59 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:00 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:00 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:53 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:54 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:54 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:19:54 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:41 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:41 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:41 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:38:42 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:45:33 INFO  Launcher:79 - Starting program
+2016-11-27 14:49:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:02 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:49:03 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:55:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:55:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:55:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 14:55:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 15:08:06 INFO  Launcher:79 - Starting program
+2016-11-27 15:08:09 INFO  Launcher:119 - Register topic: sportStore
+2016-11-27 15:08:09 INFO  Launcher:120 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'United Kingdom') AND  (category = 'sport' OR category = 'gym' OR category = 'shoes' OR category = 'beverages' OR category = 'futbol') AND  date IS NOT NULL AND  (budget  BETWEEN  10 AND 600) AND  phone LIKE '36%' AND  frecuent = TRUE
+2016-11-27 15:13:37 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 15:13:37 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 15:13:37 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-27 15:13:38 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 

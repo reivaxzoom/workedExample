@@ -1,6 +1,6 @@
 package elte.electronicStore.singleBussiness;
 
-import com.mysema.query.annotations.QueryEntity;
+import com.querydsl.core.annotations.QueryEntity;
 import java.util.Objects;
 import javax.money.NumberValue;
 import org.springframework.data.annotation.Id;

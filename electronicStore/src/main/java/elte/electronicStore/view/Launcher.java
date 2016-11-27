@@ -81,7 +81,8 @@ public class Launcher {
         queue = new ArrayBlockingQueue<>(100);
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter some text, or '" + "exit" + "' to quit");
+        System.out.println("Welcome to electronicStore\n");
+        System.out.println("Enter some text, or '" + "exit" + "' to quit or help to show options");
         Future fprocess = null;
         Future freply = null;
 
