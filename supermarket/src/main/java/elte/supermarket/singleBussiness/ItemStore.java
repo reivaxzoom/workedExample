@@ -22,8 +22,6 @@ public class ItemStore {
     private int amount;
     @Field("money")
     private NumberValue unityPrice;
-//    private String Brand;
-//    private List<String> listPhotosIt;
     
     
      

@@ -13,6 +13,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutionException;
@@ -23,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 import org.apache.log4j.Priority;
 
 /**
@@ -39,16 +41,17 @@ public class Launcher {
 //     public static final String addidasSelector = "rd.category = 'sport' OR rd.category = 'shoes' OR rd.category = 'test'";
 //     public static final String addidasSelector = "category='shoes' OR category='sport' OR category= 'test'  ";
     public static final String reqTopicName = "requestTopic";
-    public static final String topicName = "sportStore";
+    public static final String topicName = "supermarket";
     public static final String respQueueName = "responseQueue";
 
     public static String expressionComposer() {
         QRequestData rd = QRequestData.requestData;
         QueryGeneratorSample qg = new QueryGeneratorSample();
 
-        BooleanBuilder bb = new BooleanBuilder(rd.country.in("Hungary","Italy"));
+        //TODO add ' ' to in expressions
+        List countries= Arrays.asList("Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia").stream().map(x -> "'" + x + "'").collect(Collectors.toList());
+        BooleanBuilder bb = new BooleanBuilder(rd.country.in(countries));
         bb.and(rd.category.eq("food").or(rd.category.eq("beverages")).or(rd.category.eq("fruit")).or(rd.category.eq("other")));
-        bb.and(rd.country.in("Hungary","Italy"));
         bb.and(rd.date.isNotNull());
         bb.and(rd.budget.goe(10));
         

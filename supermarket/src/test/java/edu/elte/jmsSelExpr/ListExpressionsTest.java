@@ -55,7 +55,6 @@ public class ListExpressionsTest extends AbstractExpressionTest {
     
     @Test
     public void starWith(){
-        
         Expression stw=rd.category.startsWith("sp");
         Assert.assertEquals("category LIKE 'sp%'", serialize(stw));
     }

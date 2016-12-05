@@ -20,7 +20,7 @@ public class StoreOperationsImpl implements StoreOperations {
     ;
     
 
-    private static final String DBNAME = "tescodb";
+    private static final String DBNAME = "supermarketdb";
     private MongoOperations mongoOps;
 
     public StoreOperationsImpl() {

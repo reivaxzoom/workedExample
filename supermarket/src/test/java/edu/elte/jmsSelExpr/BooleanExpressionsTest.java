@@ -36,7 +36,9 @@ public class BooleanExpressionsTest extends AbstractExpressionTest{
 
     @Test
     public void or3() {
-        Expression wallmart1 = Expressions.anyOf(sp, sh, ts);
+//        Expression wallmart1 = Expressions.anyOf(sp, sh, ts);
+        BooleanBuilder wallmart1  = new BooleanBuilder();
+        wallmart1.andAnyOf(sp, sh, ts);
         assertEquals("category = 'sport' OR category = 'shoes' OR category = 'test'", super.serialize(wallmart1));
     }
      @Test
@@ -64,7 +66,9 @@ public class BooleanExpressionsTest extends AbstractExpressionTest{
 
     @Test
     public void and3() {
-        Expression andAll = Expressions.allOf(sp, sh, ts);
+        BooleanBuilder andAll= new BooleanBuilder();
+        andAll.andAnyOf(sp,sh,ts);
+//        Expression andAll = Expressions.allOf(sp, sh, ts);
         assertEquals("category = 'sport' AND  category = 'shoes' AND  category = 'test'", serialize(andAll));
     }
     

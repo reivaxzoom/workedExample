@@ -42,9 +42,6 @@ public class RequestData {
 
     public RequestData() {
     }
-    
-    
-    
 
     public RequestData(String id, String name) {
         this.id = id;

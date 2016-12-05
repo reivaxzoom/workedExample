@@ -44,7 +44,7 @@ public class Launcher {
 //     public static final String addidasSelector = "rd.category = 'sport' OR rd.category = 'shoes' OR rd.category = 'test'";
 //     public static final String addidasSelector = "category='shoes' OR category='sport' OR category= 'test'  ";
     public static final String reqTopicName = "requestTopic";
-    public static final String topicName = "sportStore";
+    public static final String topicName = "electronicStore";
     public static final String respQueueName = "responseQueue";
 
     public static String expressionComposer() {

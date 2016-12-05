@@ -104097,3 +104097,4171 @@ Properties:
 2016-11-27 14:56:06 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-27 14:56:07 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
 2016-11-27 14:56:07 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 00:57:47 INFO  Launcher:67 - Starting program
+2016-11-28 01:04:09 INFO  Launcher:107 - Register topic: sportStore
+2016-11-28 01:04:09 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:08:36 INFO  Launcher:107 - Register topic: sportStore
+2016-11-28 01:08:36 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:14:26 INFO  Launcher:67 - Starting program
+2016-11-28 01:14:34 INFO  Launcher:107 - Register topic: sportStore
+2016-11-28 01:14:34 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:16:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:16:51 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:16:51 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:16:52 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:17:18 INFO  Launcher:67 - Starting program
+2016-11-28 01:17:31 INFO  Launcher:107 - Register topic: supermarket
+2016-11-28 01:17:32 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:18:20 INFO  Launcher:67 - Starting program
+2016-11-28 01:18:25 INFO  Launcher:107 - Register topic: supermarket
+2016-11-28 01:18:25 INFO  Launcher:108 - JMS Selector:  country IN (Hungary, Italy) AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:20:21 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:20:21 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:20:21 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:20:22 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:20:33 INFO  Launcher:68 - Starting program
+2016-11-28 01:20:37 INFO  Launcher:108 - Register topic: supermarket
+2016-11-28 01:20:37 INFO  Launcher:109 - JMS Selector:  country IN ('Hungary', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:24:32 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:24:33 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:24:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:24:34 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:25:32 INFO  Launcher:71 - Starting program
+2016-11-28 01:25:35 INFO  Launcher:111 - Register topic: supermarket
+2016-11-28 01:25:35 INFO  Launcher:112 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:26:04 INFO  Launcher:111 - Register topic: supermarket
+2016-11-28 01:26:04 INFO  Launcher:112 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND   country IN (Hungary, Italy) AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 01:28:15 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:28:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:28:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:28:16 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 01:28:58 INFO  Launcher:70 - Starting program
+2016-11-28 01:29:01 INFO  Launcher:110 - Register topic: supermarket
+2016-11-28 01:29:02 INFO  Launcher:111 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:21:34 INFO  Launcher:98 - starting procesor
+2016-11-28 11:21:34 INFO  Launcher:106 - cart size:0 is done: false
+2016-11-28 11:21:34 INFO  Processor:59 - connecting qpid 
+2016-11-28 11:21:36 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 11:21:36 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:21:43 INFO  Processor:122 - Sending response done
+2016-11-28 11:21:44 INFO  Processor:126 - session closed
+2016-11-28 11:22:26 INFO  Launcher:98 - starting procesor
+2016-11-28 11:22:26 INFO  Launcher:106 - cart size:0 is done: false
+2016-11-28 11:22:26 INFO  Processor:59 - connecting qpid 
+2016-11-28 11:22:26 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 11:22:26 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:22:26 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:22:26 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=2}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=4}]
+JMS Correlation ID: null
+JMS timestamp: 1480328545536
+JMS expiration: 2960659491071
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:0c2e7b3d-687a-3490-8fd8-dd379758d0ae
+JMS Content-Type: application/java-object-stream
+AMQ message number: 3
+Properties:
+	date = 28/11/2016 11:22:21
+	country = Ireland
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:22:21
+	name = Nicolas
+	subOrd = 5/15
+	id = 85
+	category = fruit
+	budget = 597
+
+2016-11-28 11:22:26 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:22:29 INFO  Processor:115 - Message processed
+2016-11-28 11:22:29 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:22:29 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=9}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=4}, Item{name=Oranges, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328547476
+JMS expiration: 2960659494951
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:f50272fe-456a-3ace-acef-7cbdece4d14c
+JMS Content-Type: application/java-object-stream
+AMQ message number: 4
+Properties:
+	date = 28/11/2016 11:22:21
+	country = Italy
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:22:21
+	name = Gabriela
+	subOrd = 5/15
+	id = 45
+	category = fruit
+	budget = 498
+
+2016-11-28 11:22:29 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:22:32 INFO  Processor:115 - Message processed
+2016-11-28 11:22:32 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:22:32 INFO  Processor:91 - Body:
+[Item{name=Oranges, amount=1}, Item{name=Apples, amount=9}, Item{name=Lettuce, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328548063
+JMS expiration: 2960659496124
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ef126cf1-4153-3e66-92ac-2bff3be3924e
+JMS Content-Type: application/java-object-stream
+AMQ message number: 5
+Properties:
+	date = 28/11/2016 11:22:21
+	country = Hungary
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:22:21
+	name = Nicolas
+	subOrd = 5/15
+	id = 12
+	category = fruit
+	budget = 500
+
+2016-11-28 11:22:32 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:22:35 INFO  Processor:115 - Message processed
+2016-11-28 11:22:35 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:22:35 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=10}, Item{name=Noodles, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328548482
+JMS expiration: 2960659496964
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:346d5898-0391-3f44-904c-21ca94bb4eaf
+JMS Content-Type: application/java-object-stream
+AMQ message number: 6
+Properties:
+	date = 28/11/2016 11:22:21
+	country = Italy
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:22:21
+	name = Nicolas
+	subOrd = 2/14
+	id = 7
+	category = other
+	budget = 410
+
+2016-11-28 11:22:35 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:22:38 INFO  Processor:115 - Message processed
+2016-11-28 11:22:43 INFO  Processor:122 - Sending response done
+2016-11-28 11:22:43 INFO  Processor:126 - session closed
+2016-11-28 11:22:54 INFO  Launcher:136 - showing size
+2016-11-28 11:22:54 INFO  Launcher:137 - queue size:4
+2016-11-28 11:22:56 INFO  Launcher:136 - showing size
+2016-11-28 11:22:56 INFO  Launcher:137 - queue size:4
+2016-11-28 11:24:37 INFO  Launcher:136 - showing size
+2016-11-28 11:24:37 INFO  Launcher:137 - queue size:4
+2016-11-28 11:25:03 INFO  Launcher:98 - starting procesor
+2016-11-28 11:25:03 INFO  Launcher:106 - cart size:4 is done: false
+2016-11-28 11:25:03 INFO  Processor:59 - connecting qpid 
+2016-11-28 11:25:03 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 11:25:03 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:25:03 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:25:03 INFO  Processor:91 - Body:
+[Item{name=Sourcream, amount=1}, Item{name=Canned, amount=1}, Item{name=Squash, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Noodles, amount=1}, Item{name=Drymix, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328671763
+JMS expiration: 2960659743489
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9c3398a3-f454-3f4d-aab7-16bf53412024
+JMS Content-Type: application/java-object-stream
+AMQ message number: 3
+Properties:
+	date = 28/11/2016 11:24:30
+	country = Italy
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 11:24:30
+	name = Sally
+	subOrd = 1/15
+	id = 91
+	category = other
+	budget = 411
+
+2016-11-28 11:25:03 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:25:06 INFO  Processor:115 - Message processed
+2016-11-28 11:25:06 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:25:06 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=1}, Item{name=Tea, amount=1}, Item{name=Tea, amount=1}, Item{name=Milk, amount=1}, Item{name=Water, amount=1}, Item{name=Beer, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328671855
+JMS expiration: 2960659743706
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:79385b3a-c358-3c34-8078-6e82399754cd
+JMS Content-Type: application/java-object-stream
+AMQ message number: 4
+Properties:
+	date = 28/11/2016 11:24:30
+	country = Ireland
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 11:24:30
+	name = Sally
+	subOrd = 2/15
+	id = 91
+	category = beverages
+	budget = 507
+
+2016-11-28 11:25:06 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:25:10 INFO  Processor:115 - Message processed
+2016-11-28 11:25:10 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:25:10 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328676596
+JMS expiration: 2960659753191
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:376e97b2-86d8-3ac2-bc4b-a031fa69b873
+JMS Content-Type: application/java-object-stream
+AMQ message number: 5
+Properties:
+	date = 28/11/2016 11:24:30
+	country = Italy
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:24:30
+	name = Gabriela
+	subOrd = 5/14
+	id = 32
+	category = fruit
+	budget = 528
+
+2016-11-28 11:25:10 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:25:14 INFO  Processor:115 - Message processed
+2016-11-28 11:25:14 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:25:14 INFO  Processor:91 - Body:
+[Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=1}, Item{name=Cheese, amount=1}, Item{name=Squash, amount=1}, Item{name=Eggs, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=1}, Item{name=Mushrooms, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328677332
+JMS expiration: 2960659754663
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:943affa2-2088-3eb5-b5a6-adfcf0319428
+JMS Content-Type: application/java-object-stream
+AMQ message number: 6
+Properties:
+	date = 28/11/2016 11:24:30
+	country = Italy
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:24:30
+	name = Nicolas
+	subOrd = 2/14
+	id = 32
+	category = other
+	budget = 431
+
+2016-11-28 11:25:14 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:25:18 INFO  Processor:115 - Message processed
+2016-11-28 11:25:18 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:25:18 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480328678053
+JMS expiration: 2960659756105
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:5cf73eea-d6ba-39ba-b347-2083f8559870
+JMS Content-Type: application/java-object-stream
+AMQ message number: 7
+Properties:
+	date = 28/11/2016 11:24:30
+	country = Hungary
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:24:30
+	name = Gabriela
+	subOrd = 5/16
+	id = 20
+	category = fruit
+	budget = 351
+
+2016-11-28 11:25:18 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:25:21 INFO  Processor:115 - Message processed
+2016-11-28 11:25:26 INFO  Processor:122 - Sending response done
+2016-11-28 11:25:26 INFO  Processor:126 - session closed
+2016-11-28 11:33:49 WARN  Launcher:193 - no valid option selected
+2016-11-28 11:33:51 WARN  Launcher:193 - no valid option selected
+2016-11-28 11:34:20 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 11:34:20 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 11:34:21 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 11:34:21 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 11:53:45 INFO  Launcher:70 - Starting program
+2016-11-28 11:54:48 INFO  Launcher:98 - starting procesor
+2016-11-28 11:54:48 INFO  Launcher:106 - cart size:0 is done: false
+2016-11-28 11:54:48 INFO  Processor:59 - connecting qpid 
+2016-11-28 11:54:50 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 11:54:50 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:54:55 INFO  Processor:122 - Sending response done
+2016-11-28 11:54:55 INFO  Processor:126 - session closed
+2016-11-28 11:57:03 INFO  Launcher:98 - starting procesor
+2016-11-28 11:57:03 INFO  Launcher:106 - cart size:0 is done: false
+2016-11-28 11:57:03 INFO  Processor:59 - connecting qpid 
+2016-11-28 11:57:04 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 11:57:04 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 11:57:04 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:04 INFO  Processor:91 - Body:
+[Item{name=sangria, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=10}, Item{name=Yoghurt, amount=1}, Item{name=Yoghurt, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330582536
+JMS expiration: 2960663565034
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:149c3782-c666-35d6-b8ff-7d61f0607fd7
+JMS Content-Type: application/java-object-stream
+AMQ message number: 3
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Luxembourg
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 11:56:21
+	name = Sally
+	subOrd = 1/15
+	id = 99
+	category = beverages
+	budget = 303
+
+2016-11-28 11:57:04 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:07 INFO  Processor:115 - Message processed
+2016-11-28 11:57:07 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:07 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}, Item{name=Celery, amount=1}, Item{name=Noodles, amount=1}, Item{name=Noodles, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330582623
+JMS expiration: 2960663565241
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:a8874343-4869-343a-8024-3b56f2dcce87
+JMS Content-Type: application/java-object-stream
+AMQ message number: 4
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Portugal
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:56:21
+	name = Eva
+	subOrd = 2/15
+	id = 99
+	category = other
+	budget = 435
+
+2016-11-28 11:57:07 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:10 INFO  Processor:115 - Message processed
+2016-11-28 11:57:10 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:10 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330583905
+JMS expiration: 2960663567809
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:67874ff3-49f6-3ac0-9e4f-93674bca1e92
+JMS Content-Type: application/java-object-stream
+AMQ message number: 5
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Italy
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 11:56:21
+	name = Xavier
+	subOrd = 5/15
+	id = 75
+	category = fruit
+	budget = 385
+
+2016-11-28 11:57:10 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:14 INFO  Processor:115 - Message processed
+2016-11-28 11:57:14 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:14 INFO  Processor:91 - Body:
+[Item{name=Tea, amount=1}, Item{name=Coffee, amount=10}, Item{name=sangria, amount=1}, Item{name=Beer, amount=3}, Item{name=sangria, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330584565
+JMS expiration: 2960663569128
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:31a3bb33-d374-34be-92d7-05bb16499aba
+JMS Content-Type: application/java-object-stream
+AMQ message number: 6
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Slovakia
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:56:21
+	name = Eva
+	subOrd = 1/14
+	id = 27
+	category = beverages
+	budget = 582
+
+2016-11-28 11:57:14 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:18 INFO  Processor:115 - Message processed
+2016-11-28 11:57:18 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:18 INFO  Processor:91 - Body:
+[Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Sourcream, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330585370
+JMS expiration: 2960663570738
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:1f997e9e-e6b4-3f0f-a77e-a871cb7024c5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 7
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Romania
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:56:21
+	name = Nicolas
+	subOrd = 1/15
+	id = 64
+	category = other
+	budget = 373
+
+2016-11-28 11:57:18 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:20 INFO  Processor:115 - Message processed
+2016-11-28 11:57:20 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:20 INFO  Processor:91 - Body:
+[Item{name=Juice, amount=6}, Item{name=Cider, amount=1}, Item{name=Tea, amount=1}, Item{name=Beer, amount=3}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=10}]
+JMS Correlation ID: null
+JMS timestamp: 1480330585429
+JMS expiration: 2960663570857
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e0c3c55e-ea2d-30b1-bb6b-7ef816d8fb64
+JMS Content-Type: application/java-object-stream
+AMQ message number: 8
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Netherlands
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:56:21
+	name = Eva
+	subOrd = 2/15
+	id = 64
+	category = beverages
+	budget = 546
+
+2016-11-28 11:57:20 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:23 INFO  Processor:115 - Message processed
+2016-11-28 11:57:23 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:23 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=3}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=sangria, amount=1}, Item{name=Water, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330586274
+JMS expiration: 2960663572547
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:f56e4979-6221-3ac8-99a5-6b079689b933
+JMS Content-Type: application/java-object-stream
+AMQ message number: 9
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Slovakia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:56:21
+	name = Laszlo
+	subOrd = 2/14
+	id = 95
+	category = beverages
+	budget = 333
+
+2016-11-28 11:57:23 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:25 INFO  Processor:115 - Message processed
+2016-11-28 11:57:25 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:25 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}, Item{name=Canned, amount=1}, Item{name=Mushrooms, amount=2}, Item{name=Noodles, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330587037
+JMS expiration: 2960663574073
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:6467d1aa-d45f-34b0-9d7f-5d945b97f0a1
+JMS Content-Type: application/java-object-stream
+AMQ message number: 10
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Poland
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:56:21
+	name = Eva
+	subOrd = 2/14
+	id = 59
+	category = other
+	budget = 435
+
+2016-11-28 11:57:25 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:29 INFO  Processor:115 - Message processed
+2016-11-28 11:57:29 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:29 INFO  Processor:91 - Body:
+[Item{name=Cucumber, amount=3}, Item{name=Celery, amount=1}, Item{name=Eggs, amount=10}, Item{name=Cottagecheese, amount=1}, Item{name=Noodles, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330588536
+JMS expiration: 2960663577071
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:5b2b0319-66c0-3b31-88a9-839cb5eaeac4
+JMS Content-Type: application/java-object-stream
+AMQ message number: 11
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Poland
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:56:21
+	name = Laszlo
+	subOrd = 1/15
+	id = 37
+	category = other
+	budget = 444
+
+2016-11-28 11:57:29 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:32 INFO  Processor:115 - Message processed
+2016-11-28 11:57:32 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:32 INFO  Processor:91 - Body:
+[Item{name=Water, amount=1}, Item{name=Milk, amount=3}, Item{name=Beer, amount=3}, Item{name=Tea, amount=1}, Item{name=Juice, amount=6}, Item{name=sangria, amount=1}, Item{name=sangria, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330588578
+JMS expiration: 2960663577156
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4b07a526-80e8-3d8d-8f54-b4906706c333
+JMS Content-Type: application/java-object-stream
+AMQ message number: 12
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Poland
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:56:21
+	name = Gabriela
+	subOrd = 2/15
+	id = 37
+	category = beverages
+	budget = 511
+
+2016-11-28 11:57:32 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:34 INFO  Processor:115 - Message processed
+2016-11-28 11:57:34 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:34 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=1}, Item{name=Soda, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330590007
+JMS expiration: 2960663580013
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:6e1a3ff7-2b53-37a4-9ecb-303c6ba54598
+JMS Content-Type: application/java-object-stream
+AMQ message number: 13
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Luxembourg
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:56:21
+	name = Gabriela
+	subOrd = 2/15
+	id = 99
+	category = beverages
+	budget = 352
+
+2016-11-28 11:57:34 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:38 INFO  Processor:115 - Message processed
+2016-11-28 11:57:38 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:38 INFO  Processor:91 - Body:
+[Item{name=Lettuce, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=4}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330590169
+JMS expiration: 2960663580336
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ad5edd29-a068-38b2-94e9-08b732ed1c22
+JMS Content-Type: application/java-object-stream
+AMQ message number: 14
+Properties:
+	date = 28/11/2016 11:56:21
+	country = Lithuania
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:56:21
+	name = Nicolas
+	subOrd = 5/15
+	id = 99
+	category = fruit
+	budget = 526
+
+2016-11-28 11:57:38 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:41 INFO  Processor:115 - Message processed
+2016-11-28 11:57:41 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:41 INFO  Processor:91 - Body:
+[Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Noodles, amount=1}, Item{name=Squash, amount=7}, Item{name=Eggs, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330646260
+JMS expiration: 2960663692516
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:8dcbc337-f9bf-34ba-a1a3-976af81f9086
+JMS Content-Type: application/java-object-stream
+AMQ message number: 15
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Netherlands
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:24
+	name = Laszlo
+	subOrd = 2/14
+	id = 98
+	category = other
+	budget = 575
+
+2016-11-28 11:57:41 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:43 INFO  Processor:115 - Message processed
+2016-11-28 11:57:43 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:43 INFO  Processor:91 - Body:
+[Item{name=Soda, amount=7}, Item{name=Tea, amount=1}, Item{name=Cider, amount=1}, Item{name=Beer, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330647249
+JMS expiration: 2960663694496
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:373d38cb-fc93-33f7-84ab-ceafd69f31e3
+JMS Content-Type: application/java-object-stream
+AMQ message number: 16
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Latvia
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:24
+	name = Nicolas
+	subOrd = 2/15
+	id = 59
+	category = beverages
+	budget = 478
+
+2016-11-28 11:57:43 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:45 INFO  Processor:115 - Message processed
+2016-11-28 11:57:45 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:45 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=10}, Item{name=Pineapple, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=4}, Item{name=Lettuce, amount=8}]
+JMS Correlation ID: null
+JMS timestamp: 1480330647464
+JMS expiration: 2960663694925
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:3f2e1226-0296-3461-9162-07d4a5c1b194
+JMS Content-Type: application/java-object-stream
+AMQ message number: 17
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Poland
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:57:24
+	name = Eva
+	subOrd = 5/15
+	id = 59
+	category = fruit
+	budget = 468
+
+2016-11-28 11:57:46 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:48 INFO  Processor:115 - Message processed
+2016-11-28 11:57:48 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:48 INFO  Processor:91 - Body:
+[Item{name=sangria, amount=2}, Item{name=Coffee, amount=1}, Item{name=Beer, amount=1}, Item{name=Tea, amount=1}, Item{name=Tea, amount=1}, Item{name=Coffee, amount=1}, Item{name=Beer, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330648175
+JMS expiration: 2960663696348
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:0c911aef-1c8d-388d-bd8e-550b490c1088
+JMS Content-Type: application/java-object-stream
+AMQ message number: 18
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Poland
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:57:24
+	name = Gabriela
+	subOrd = 1/15
+	id = 35
+	category = beverages
+	budget = 372
+
+2016-11-28 11:57:48 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:52 INFO  Processor:115 - Message processed
+2016-11-28 11:57:52 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:52 INFO  Processor:91 - Body:
+[Item{name=Noodles, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=5}, Item{name=Eggs, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330648244
+JMS expiration: 2960663696486
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4dd7defc-a368-3e61-acb8-6c56152106a5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 19
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Lithuania
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:24
+	name = Nicolas
+	subOrd = 2/15
+	id = 35
+	category = other
+	budget = 308
+
+2016-11-28 11:57:52 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:54 INFO  Processor:115 - Message processed
+2016-11-28 11:57:54 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:54 INFO  Processor:91 - Body:
+[Item{name=Coffee, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=sangria, amount=2}, Item{name=Cider, amount=1}, Item{name=Soda, amount=7}]
+JMS Correlation ID: null
+JMS timestamp: 1480330649535
+JMS expiration: 2960663699069
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c1d2fae4-3fd9-3ef2-a5fd-6d55953a6e90
+JMS Content-Type: application/java-object-stream
+AMQ message number: 20
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Italy
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:24
+	name = Laszlo
+	subOrd = 1/15
+	id = 7
+	category = beverages
+	budget = 368
+
+2016-11-28 11:57:54 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:57:56 INFO  Processor:115 - Message processed
+2016-11-28 11:57:56 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:57:56 INFO  Processor:91 - Body:
+[Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=10}, Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330649831
+JMS expiration: 2960663699661
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:2cf7175b-33af-3307-b3bb-bef3eeba5dd3
+JMS Content-Type: application/java-object-stream
+AMQ message number: 21
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Netherlands
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:24
+	name = Nicolas
+	subOrd = 4/15
+	id = 7
+	category = fruit
+	budget = 341
+
+2016-11-28 11:57:56 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:00 INFO  Processor:115 - Message processed
+2016-11-28 11:58:00 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:00 INFO  Processor:91 - Body:
+[Item{name=Coffee, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=Yoghurt, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330650856
+JMS expiration: 2960663701711
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:487b1e70-41f6-38df-9545-a8ee8364f255
+JMS Content-Type: application/java-object-stream
+AMQ message number: 22
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Luxembourg
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:24
+	name = Laszlo
+	subOrd = 2/15
+	id = 92
+	category = beverages
+	budget = 371
+
+2016-11-28 11:58:00 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:04 INFO  Processor:115 - Message processed
+2016-11-28 11:58:04 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:04 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=10}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330651185
+JMS expiration: 2960663702367
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:f1c07f83-e408-3fa8-a398-5ec3707e6634
+JMS Content-Type: application/java-object-stream
+AMQ message number: 23
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Malta
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:57:24
+	name = Gabriela
+	subOrd = 5/15
+	id = 92
+	category = fruit
+	budget = 493
+
+2016-11-28 11:58:04 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:07 INFO  Processor:115 - Message processed
+2016-11-28 11:58:07 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:07 INFO  Processor:91 - Body:
+[Item{name=Mushrooms, amount=2}, Item{name=Canned, amount=5}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330651628
+JMS expiration: 2960663703256
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4aee902a-c64f-35c5-872d-b982d4b8754d
+JMS Content-Type: application/java-object-stream
+AMQ message number: 24
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Netherlands
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:24
+	name = Laszlo
+	subOrd = 1/16
+	id = 89
+	category = other
+	budget = 473
+
+2016-11-28 11:58:07 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:11 INFO  Processor:115 - Message processed
+2016-11-28 11:58:11 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:11 INFO  Processor:91 - Body:
+[Item{name=sangria, amount=2}, Item{name=Juice, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Milk, amount=8}, Item{name=Water, amount=6}, Item{name=Cider, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Juice, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330651659
+JMS expiration: 2960663703317
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e3bbfab7-66f9-32d1-b1f1-d883a0c06e8b
+JMS Content-Type: application/java-object-stream
+AMQ message number: 25
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Portugal
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:57:24
+	name = Gabriela
+	subOrd = 2/16
+	id = 89
+	category = beverages
+	budget = 553
+
+2016-11-28 11:58:11 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:15 INFO  Processor:115 - Message processed
+2016-11-28 11:58:15 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:15 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=8}, Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330651752
+JMS expiration: 2960663703503
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:f3045bd7-95a5-341e-9813-3e0e6ac56191
+JMS Content-Type: application/java-object-stream
+AMQ message number: 26
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Latvia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:24
+	name = Laszlo
+	subOrd = 5/16
+	id = 89
+	category = fruit
+	budget = 369
+
+2016-11-28 11:58:15 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:18 INFO  Processor:115 - Message processed
+2016-11-28 11:58:18 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:18 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=8}, Item{name=Apples, amount=10}]
+JMS Correlation ID: null
+JMS timestamp: 1480330652410
+JMS expiration: 2960663704819
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:49d50d94-c023-33ec-839c-f3334ba0db33
+JMS Content-Type: application/java-object-stream
+AMQ message number: 27
+Properties:
+	date = 28/11/2016 11:57:24
+	country = Italy
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 11:57:24
+	name = Xavier
+	subOrd = 5/15
+	id = 8
+	category = fruit
+	budget = 509
+
+2016-11-28 11:58:18 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:20 INFO  Processor:115 - Message processed
+2016-11-28 11:58:20 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:20 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}, Item{name=Canned, amount=8}, Item{name=Celery, amount=1}, Item{name=Eggs, amount=1}, Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330660477
+JMS expiration: 2960663720951
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ebd50e0a-5a44-3507-a877-689b22b6d760
+JMS Content-Type: application/java-object-stream
+AMQ message number: 28
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Ireland
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 11:57:38
+	name = Sally
+	subOrd = 2/14
+	id = 83
+	category = other
+	budget = 543
+
+2016-11-28 11:58:20 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:24 INFO  Processor:115 - Message processed
+2016-11-28 11:58:24 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:24 INFO  Processor:91 - Body:
+[Item{name=Cucumber, amount=1}, Item{name=Cottagecheese, amount=7}, Item{name=Sourcream, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Squash, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Canned, amount=8}]
+JMS Correlation ID: null
+JMS timestamp: 1480330661409
+JMS expiration: 2960663722815
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:a1d44738-eb44-3471-b1fb-a0d6b6332cb3
+JMS Content-Type: application/java-object-stream
+AMQ message number: 29
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Malta
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:38
+	name = Nicolas
+	subOrd = 2/15
+	id = 51
+	category = other
+	budget = 499
+
+2016-11-28 11:58:24 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:27 INFO  Processor:115 - Message processed
+2016-11-28 11:58:27 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:27 INFO  Processor:91 - Body:
+[Item{name=Tomatoes, amount=9}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330661645
+JMS expiration: 2960663723288
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:01a0eae6-be13-3014-9a42-aaa3640414a9
+JMS Content-Type: application/java-object-stream
+AMQ message number: 30
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Romania
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 11:57:38
+	name = Sally
+	subOrd = 5/15
+	id = 51
+	category = fruit
+	budget = 317
+
+2016-11-28 11:58:27 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:29 INFO  Processor:115 - Message processed
+2016-11-28 11:58:29 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:29 INFO  Processor:91 - Body:
+[Item{name=Water, amount=6}, Item{name=Milk, amount=1}, Item{name=Tea, amount=5}, Item{name=Yoghurt, amount=5}, Item{name=Beer, amount=7}]
+JMS Correlation ID: null
+JMS timestamp: 1480330662403
+JMS expiration: 2960663724805
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:434be8be-a4c1-3f9f-87d1-74b87a7517a6
+JMS Content-Type: application/java-object-stream
+AMQ message number: 31
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Slovakia
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:57:38
+	name = Eva
+	subOrd = 2/13
+	id = 87
+	category = beverages
+	budget = 468
+
+2016-11-28 11:58:29 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:31 INFO  Processor:115 - Message processed
+2016-11-28 11:58:31 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:31 INFO  Processor:91 - Body:
+[Item{name=Tomatoes, amount=9}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=2}, Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330663462
+JMS expiration: 2960663726923
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c59f8766-00a5-3fa1-969d-fc79c8c6d6ec
+JMS Content-Type: application/java-object-stream
+AMQ message number: 32
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Hungary
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:57:38
+	name = Eva
+	subOrd = 4/15
+	id = 26
+	category = fruit
+	budget = 376
+
+2016-11-28 11:58:31 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:33 INFO  Processor:115 - Message processed
+2016-11-28 11:58:33 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:33 INFO  Processor:91 - Body:
+[Item{name=Cheese, amount=1}, Item{name=Canned, amount=8}, Item{name=Sourcream, amount=1}, Item{name=Celery, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Eggs, amount=1}, Item{name=Mushrooms, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330664209
+JMS expiration: 2960663728417
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:993e76c8-14c2-393d-abc1-fe362573825c
+JMS Content-Type: application/java-object-stream
+AMQ message number: 33
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Malta
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:38
+	name = Laszlo
+	subOrd = 1/16
+	id = 27
+	category = other
+	budget = 410
+
+2016-11-28 11:58:33 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:36 INFO  Processor:115 - Message processed
+2016-11-28 11:58:36 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:36 INFO  Processor:91 - Body:
+[Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330664415
+JMS expiration: 2960663728829
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9c9cc8a0-8a8c-3f99-8cdf-adf85e8f2a56
+JMS Content-Type: application/java-object-stream
+AMQ message number: 34
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Luxembourg
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 11:57:38
+	name = Xavier
+	subOrd = 5/16
+	id = 27
+	category = fruit
+	budget = 514
+
+2016-11-28 11:58:36 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:40 INFO  Processor:115 - Message processed
+2016-11-28 11:58:40 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:40 INFO  Processor:91 - Body:
+[Item{name=Noodles, amount=1}, Item{name=Eggs, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cheese, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330665066
+JMS expiration: 2960663730131
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:75c40fca-9599-3379-8f70-14bc944f53c6
+JMS Content-Type: application/java-object-stream
+AMQ message number: 35
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Ireland
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:57:38
+	name = Eva
+	subOrd = 1/15
+	id = 91
+	category = other
+	budget = 583
+
+2016-11-28 11:58:40 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:43 INFO  Processor:115 - Message processed
+2016-11-28 11:58:43 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:43 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=5}, Item{name=Milk, amount=1}, Item{name=Milk, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330665113
+JMS expiration: 2960663730225
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:a2df50cf-5733-3ec2-99ef-363236e0156a
+JMS Content-Type: application/java-object-stream
+AMQ message number: 36
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Hungary
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:38
+	name = Nicolas
+	subOrd = 2/15
+	id = 91
+	category = beverages
+	budget = 381
+
+2016-11-28 11:58:43 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:45 INFO  Processor:115 - Message processed
+2016-11-28 11:58:45 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:45 INFO  Processor:91 - Body:
+[Item{name=Squash, amount=1}, Item{name=Celery, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=8}, Item{name=Cucumber, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330666010
+JMS expiration: 2960663732018
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4ec939da-c857-3db6-ac01-a720691d9434
+JMS Content-Type: application/java-object-stream
+AMQ message number: 37
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Latvia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:38
+	name = Laszlo
+	subOrd = 2/15
+	id = 51
+	category = other
+	budget = 313
+
+2016-11-28 11:58:45 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:49 INFO  Processor:115 - Message processed
+2016-11-28 11:58:49 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:49 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=2}]
+JMS Correlation ID: null
+JMS timestamp: 1480330666158
+JMS expiration: 2960663732315
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:de9a2644-82cc-3cda-b6b4-ffb6b5661f75
+JMS Content-Type: application/java-object-stream
+AMQ message number: 38
+Properties:
+	date = 28/11/2016 11:57:38
+	country = Latvia
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 11:57:38
+	name = Eva
+	subOrd = 5/15
+	id = 51
+	category = fruit
+	budget = 526
+
+2016-11-28 11:58:49 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:52 INFO  Processor:115 - Message processed
+2016-11-28 11:58:52 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:52 INFO  Processor:91 - Body:
+[Item{name=Tea, amount=5}, Item{name=Coffee, amount=3}, Item{name=Soda, amount=1}, Item{name=Beer, amount=7}, Item{name=sangria, amount=9}, Item{name=Soda, amount=1}, Item{name=Soda, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330666574
+JMS expiration: 2960663733148
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:2c5bb6fd-a525-359d-99f1-9ff4bc73b3b0
+JMS Content-Type: application/java-object-stream
+AMQ message number: 39
+Properties:
+	date = 28/11/2016 11:57:39
+	country = Hungary
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 11:57:39
+	name = Gabriela
+	subOrd = 1/15
+	id = 29
+	category = beverages
+	budget = 541
+
+2016-11-28 11:58:52 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:56 INFO  Processor:115 - Message processed
+2016-11-28 11:58:56 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:56 INFO  Processor:91 - Body:
+[Item{name=Cucumber, amount=1}, Item{name=Celery, amount=1}, Item{name=Noodles, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330666603
+JMS expiration: 2960663733205
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c0b87492-cea6-3ab4-9d65-de02c0dd3ba3
+JMS Content-Type: application/java-object-stream
+AMQ message number: 40
+Properties:
+	date = 28/11/2016 11:57:39
+	country = Ireland
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:39
+	name = Nicolas
+	subOrd = 2/15
+	id = 29
+	category = other
+	budget = 504
+
+2016-11-28 11:58:56 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:58:59 INFO  Processor:115 - Message processed
+2016-11-28 11:58:59 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:58:59 INFO  Processor:91 - Body:
+[Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=3}, Item{name=sangria, amount=9}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330667059
+JMS expiration: 2960663734117
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:dfacee74-de45-305b-b626-499fb3c35372
+JMS Content-Type: application/java-object-stream
+AMQ message number: 41
+Properties:
+	date = 28/11/2016 11:57:39
+	country = Ireland
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:39
+	name = Nicolas
+	subOrd = 1/15
+	id = 25
+	category = beverages
+	budget = 600
+
+2016-11-28 11:58:59 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:59:03 INFO  Processor:115 - Message processed
+2016-11-28 11:59:03 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:59:03 INFO  Processor:91 - Body:
+[Item{name=Squash, amount=1}, Item{name=Canned, amount=8}, Item{name=Mushrooms, amount=1}, Item{name=Squash, amount=1}, Item{name=Squash, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cucumber, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480330667095
+JMS expiration: 2960663734189
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:8156d04f-ded0-390d-8fe9-f1e1807d6bed
+JMS Content-Type: application/java-object-stream
+AMQ message number: 42
+Properties:
+	date = 28/11/2016 11:57:39
+	country = Malta
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 11:57:39
+	name = Nicolas
+	subOrd = 2/15
+	id = 25
+	category = other
+	budget = 393
+
+2016-11-28 11:59:03 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:59:06 INFO  Processor:115 - Message processed
+2016-11-28 11:59:06 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 11:59:06 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=9}]
+JMS Correlation ID: null
+JMS timestamp: 1480330667210
+JMS expiration: 2960663734419
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:faca4b6c-14e7-3daa-ac3c-5b2b51f112bb
+JMS Content-Type: application/java-object-stream
+AMQ message number: 43
+Properties:
+	date = 28/11/2016 11:57:39
+	country = Romania
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 11:57:39
+	name = Laszlo
+	subOrd = 5/15
+	id = 25
+	category = fruit
+	budget = 493
+
+2016-11-28 11:59:06 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 11:59:10 INFO  Processor:115 - Message processed
+2016-11-28 11:59:15 INFO  Processor:122 - Sending response done
+2016-11-28 11:59:15 INFO  Processor:126 - session closed
+2016-11-28 12:10:00 INFO  Launcher:98 - starting procesor
+2016-11-28 12:10:00 INFO  Launcher:106 - cart size:41 is done: false
+2016-11-28 12:10:00 INFO  Processor:59 - connecting qpid 
+2016-11-28 12:10:00 INFO  Processor:79 - Connected to topic supermarket
+2016-11-28 12:10:00 INFO  Processor:80 - JMS Selector:  country IN ('Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia') AND  (category = 'food' OR category = 'beverages' OR category = 'fruit' OR category = 'other') AND  date IS NOT NULL AND  budget >= 10
+2016-11-28 12:10:00 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:00 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Oranges, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Apples, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Apples, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331113234
+JMS expiration: 2960664626465
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:babd53e3-f430-31bf-8f97-6dbf30b9cad7
+JMS Content-Type: application/java-object-stream
+AMQ message number: 3
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Malta
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 5/16
+	id = 77
+	category = fruit
+	budget = 555
+
+2016-11-28 12:10:00 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:03 INFO  Processor:115 - Message processed
+2016-11-28 12:10:03 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:03 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=1}, Item{name=Tea, amount=1}, Item{name=Milk, amount=1}, Item{name=Soda, amount=1}, Item{name=Water, amount=1}, Item{name=Cider, amount=1}, Item{name=Juice, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Beer, amount=1}, Item{name=Cider, amount=1}, Item{name=Tea, amount=1}, Item{name=sangria, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=sangria, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=Soda, amount=1}, Item{name=Soda, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Cider, amount=1}, Item{name=Beer, amount=1}, Item{name=Soda, amount=1}, Item{name=Beer, amount=1}, Item{name=Beer, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Tea, amount=1}, Item{name=Coffee, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Milk, amount=1}, Item{name=Tea, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Juice, amount=1}, Item{name=sangria, amount=1}, Item{name=Tea, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331114096
+JMS expiration: 2960664628190
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:b366aa3e-c468-33fc-ac5d-0687c379235c
+JMS Content-Type: application/java-object-stream
+AMQ message number: 4
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Ireland
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:11
+	name = Gabriela
+	subOrd = 1/16
+	id = 86
+	category = beverages
+	budget = 523
+
+2016-11-28 12:10:03 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:05 INFO  Processor:115 - Message processed
+2016-11-28 12:10:05 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:05 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331114360
+JMS expiration: 2960664628719
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:addf4e0a-ac9f-3fd8-a30a-2becc8b31e52
+JMS Content-Type: application/java-object-stream
+AMQ message number: 5
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Hungary
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 5/16
+	id = 86
+	category = fruit
+	budget = 365
+
+2016-11-28 12:10:05 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:07 INFO  Processor:115 - Message processed
+2016-11-28 12:10:07 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:07 INFO  Processor:91 - Body:
+[Item{name=Beer, amount=1}, Item{name=Beer, amount=1}, Item{name=Water, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Beer, amount=1}, Item{name=Coffee, amount=1}, Item{name=Water, amount=1}, Item{name=Cider, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Tea, amount=1}, Item{name=Tea, amount=1}, Item{name=Beer, amount=1}, Item{name=Milk, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Juice, amount=1}, Item{name=Cider, amount=1}, Item{name=Tea, amount=1}, Item{name=Cider, amount=1}, Item{name=Milk, amount=1}, Item{name=sangria, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Water, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Juice, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Cider, amount=1}, Item{name=Cider, amount=1}, Item{name=Beer, amount=1}, Item{name=Tea, amount=1}, Item{name=Beer, amount=1}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Tea, amount=1}, Item{name=Milk, amount=1}, Item{name=Beer, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Coffee, amount=1}, Item{name=Yoghurt, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331115132
+JMS expiration: 2960664630263
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:71af5933-8c03-3f5c-b332-05aba5045d85
+JMS Content-Type: application/java-object-stream
+AMQ message number: 6
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Lithuania
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:11
+	name = Eva
+	subOrd = 1/16
+	id = 78
+	category = beverages
+	budget = 466
+
+2016-11-28 12:10:07 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:09 INFO  Processor:115 - Message processed
+2016-11-28 12:10:09 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:09 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Apples, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331115292
+JMS expiration: 2960664630583
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:3e0014f1-5984-3c9d-86cb-3232341dd374
+JMS Content-Type: application/java-object-stream
+AMQ message number: 7
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Portugal
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 5/16
+	id = 78
+	category = fruit
+	budget = 546
+
+2016-11-28 12:10:09 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:11 INFO  Processor:115 - Message processed
+2016-11-28 12:10:11 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:11 INFO  Processor:91 - Body:
+[Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Beer, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Juice, amount=1}, Item{name=Cider, amount=1}, Item{name=Milk, amount=1}, Item{name=Tea, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=Beer, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Water, amount=1}, Item{name=Tea, amount=1}, Item{name=Coffee, amount=1}, Item{name=Beer, amount=1}, Item{name=Cider, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331115892
+JMS expiration: 2960664631782
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:0d94395d-d06d-3295-bcb9-f76973cff611
+JMS Content-Type: application/java-object-stream
+AMQ message number: 8
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Slovakia
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Sally
+	subOrd = 2/16
+	id = 52
+	category = beverages
+	budget = 310
+
+2016-11-28 12:10:11 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:14 INFO  Processor:115 - Message processed
+2016-11-28 12:10:14 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:14 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Mango, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331115996
+JMS expiration: 2960664631991
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:56e772f6-e55d-3cad-ad0d-9d7b87e50bfa
+JMS Content-Type: application/java-object-stream
+AMQ message number: 9
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Hungary
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 5/16
+	id = 52
+	category = fruit
+	budget = 583
+
+2016-11-28 12:10:14 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:16 INFO  Processor:115 - Message processed
+2016-11-28 12:10:16 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:16 INFO  Processor:91 - Body:
+[Item{name=Beer, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}, Item{name=Milk, amount=1}, Item{name=Beer, amount=1}, Item{name=Milk, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Tea, amount=1}, Item{name=Beer, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Water, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=Coffee, amount=1}, Item{name=Tea, amount=1}, Item{name=Beer, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Coffee, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Cider, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Soda, amount=1}, Item{name=Soda, amount=1}, Item{name=Tea, amount=1}, Item{name=Water, amount=1}, Item{name=sangria, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Tea, amount=1}, Item{name=Water, amount=1}, Item{name=Soda, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=Milk, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331116918
+JMS expiration: 2960664633836
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:012b3124-8f2d-386e-8c4d-08d70e7ef499
+JMS Content-Type: application/java-object-stream
+AMQ message number: 10
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Slovakia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 1/16
+	id = 72
+	category = beverages
+	budget = 434
+
+2016-11-28 12:10:16 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:20 INFO  Processor:115 - Message processed
+2016-11-28 12:10:20 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:20 INFO  Processor:91 - Body:
+[Item{name=Canned, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Drymix, amount=1}, Item{name=Squash, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Noodles, amount=1}, Item{name=Squash, amount=1}, Item{name=Cheese, amount=1}, Item{name=Celery, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Canned, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Canned, amount=1}, Item{name=Cheese, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Celery, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Squash, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Canned, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Noodles, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Drymix, amount=1}, Item{name=Squash, amount=1}, Item{name=Squash, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Drymix, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Squash, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Drymix, amount=1}, Item{name=Canned, amount=1}, Item{name=Squash, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Squash, amount=1}, Item{name=Canned, amount=1}, Item{name=Canned, amount=1}, Item{name=Drymix, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cheese, amount=1}, Item{name=Squash, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331116950
+JMS expiration: 2960664633899
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:7e3ce4b8-269c-39fd-93ce-cdda7b8df4e5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 11
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Lithuania
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:11
+	name = Xavier
+	subOrd = 2/16
+	id = 72
+	category = other
+	budget = 308
+
+2016-11-28 12:10:20 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:23 INFO  Processor:115 - Message processed
+2016-11-28 12:10:23 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:23 INFO  Processor:91 - Body:
+[Item{name=Cucumber, amount=1}, Item{name=Celery, amount=1}, Item{name=Canned, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Eggs, amount=1}, Item{name=Drymix, amount=1}, Item{name=Canned, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Celery, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Squash, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}, Item{name=Celery, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Celery, amount=1}, Item{name=Noodles, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Noodles, amount=1}, Item{name=Celery, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Celery, amount=1}, Item{name=Drymix, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Squash, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Noodles, amount=1}, Item{name=Celery, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331117542
+JMS expiration: 2960664635083
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e75450df-274a-3afb-86f1-89f0ec919be8
+JMS Content-Type: application/java-object-stream
+AMQ message number: 12
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Luxembourg
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 2/16
+	id = 99
+	category = other
+	budget = 587
+
+2016-11-28 12:10:23 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:25 INFO  Processor:115 - Message processed
+2016-11-28 12:10:25 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:25 INFO  Processor:91 - Body:
+[Item{name=Oranges, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331117646
+JMS expiration: 2960664635291
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:a7cb4689-9fc4-3173-977e-8d046be6c9d4
+JMS Content-Type: application/java-object-stream
+AMQ message number: 13
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Italy
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 5/16
+	id = 99
+	category = fruit
+	budget = 445
+
+2016-11-28 12:10:25 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:29 INFO  Processor:115 - Message processed
+2016-11-28 12:10:29 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:29 INFO  Processor:91 - Body:
+[Item{name=Noodles, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Squash, amount=1}, Item{name=Cheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=1}, Item{name=Noodles, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Celery, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Squash, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Celery, amount=1}, Item{name=Eggs, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Squash, amount=1}, Item{name=Canned, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Noodles, amount=1}, Item{name=Canned, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Celery, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Drymix, amount=1}, Item{name=Drymix, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331118530
+JMS expiration: 2960664637059
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ad368d73-9183-35e6-aaf8-1aacab8b3066
+JMS Content-Type: application/java-object-stream
+AMQ message number: 14
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Luxembourg
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:11
+	name = Eva
+	subOrd = 1/16
+	id = 4
+	category = other
+	budget = 392
+
+2016-11-28 12:10:29 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:33 INFO  Processor:115 - Message processed
+2016-11-28 12:10:33 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:33 INFO  Processor:91 - Body:
+[Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=Soda, amount=1}, Item{name=Beer, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=Cider, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Milk, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}, Item{name=Soda, amount=1}, Item{name=Coffee, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Cider, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Milk, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Water, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Milk, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Tea, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Tea, amount=1}, Item{name=Water, amount=1}, Item{name=Coffee, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Juice, amount=1}, Item{name=Juice, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331118565
+JMS expiration: 2960664637130
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:15a3a204-e792-33f3-9255-ee944699a0dd
+JMS Content-Type: application/java-object-stream
+AMQ message number: 15
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Slovakia
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 2/16
+	id = 4
+	category = beverages
+	budget = 598
+
+2016-11-28 12:10:33 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:36 INFO  Processor:115 - Message processed
+2016-11-28 12:10:36 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:36 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Apples, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331118660
+JMS expiration: 2960664637319
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:f3272009-ead9-3cff-8c30-2f07c4d5c27e
+JMS Content-Type: application/java-object-stream
+AMQ message number: 16
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Hungary
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 5/16
+	id = 4
+	category = fruit
+	budget = 369
+
+2016-11-28 12:10:36 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:39 INFO  Processor:115 - Message processed
+2016-11-28 12:10:39 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:39 INFO  Processor:91 - Body:
+[Item{name=Coffee, amount=1}, Item{name=Water, amount=1}, Item{name=Cider, amount=1}, Item{name=Juice, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=sangria, amount=1}, Item{name=Cider, amount=1}, Item{name=Water, amount=1}, Item{name=Juice, amount=1}, Item{name=Beer, amount=1}, Item{name=Juice, amount=1}, Item{name=Tea, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Beer, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Milk, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Milk, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Beer, amount=1}, Item{name=Juice, amount=1}, Item{name=Soda, amount=1}, Item{name=Beer, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Soda, amount=1}, Item{name=Cider, amount=1}, Item{name=Coffee, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Beer, amount=1}, Item{name=Tea, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Juice, amount=1}, Item{name=Water, amount=1}, Item{name=Milk, amount=1}, Item{name=Milk, amount=1}, Item{name=Yoghurt, amount=1}, Item{name=Soda, amount=1}, Item{name=sangria, amount=1}, Item{name=Beer, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}, Item{name=Water, amount=1}, Item{name=Juice, amount=1}, Item{name=Cider, amount=1}, Item{name=sangria, amount=1}, Item{name=Coffee, amount=1}, Item{name=Milk, amount=1}, Item{name=Juice, amount=1}, Item{name=Milk, amount=1}, Item{name=Cider, amount=1}, Item{name=Soda, amount=1}, Item{name=Water, amount=1}, Item{name=sangria, amount=1}, Item{name=Water, amount=1}, Item{name=Beer, amount=1}, Item{name=sangria, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331119137
+JMS expiration: 2960664638274
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:a8e12b26-bf69-3442-927f-b47845f13b82
+JMS Content-Type: application/java-object-stream
+AMQ message number: 17
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Italy
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:11
+	name = Eva
+	subOrd = 2/16
+	id = 77
+	category = beverages
+	budget = 345
+
+2016-11-28 12:10:39 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:42 INFO  Processor:115 - Message processed
+2016-11-28 12:10:42 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:42 INFO  Processor:91 - Body:
+[Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Apples, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Bananas, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Bananas, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331119239
+JMS expiration: 2960664638477
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9337b94b-4a59-3d36-a54b-13d82d084bdd
+JMS Content-Type: application/java-object-stream
+AMQ message number: 18
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Portugal
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Sally
+	subOrd = 5/16
+	id = 77
+	category = fruit
+	budget = 471
+
+2016-11-28 12:10:42 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:46 INFO  Processor:115 - Message processed
+2016-11-28 12:10:46 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:46 INFO  Processor:91 - Body:
+[Item{name=Sourcream, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Eggs, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Eggs, amount=1}, Item{name=Celery, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Celery, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Celery, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Squash, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Cheese, amount=1}, Item{name=Eggs, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Squash, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Canned, amount=1}, Item{name=Eggs, amount=1}, Item{name=Canned, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Drymix, amount=1}, Item{name=Canned, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Noodles, amount=1}, Item{name=Squash, amount=1}, Item{name=Canned, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Eggs, amount=1}, Item{name=Drymix, amount=1}, Item{name=Noodles, amount=1}, Item{name=Mushrooms, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331119791
+JMS expiration: 2960664639581
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:d630571f-ca1d-3356-bd78-cebd0e297bd1
+JMS Content-Type: application/java-object-stream
+AMQ message number: 19
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Slovakia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:11
+	name = Laszlo
+	subOrd = 1/16
+	id = 94
+	category = other
+	budget = 433
+
+2016-11-28 12:10:46 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:49 INFO  Processor:115 - Message processed
+2016-11-28 12:10:49 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:49 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Apples, amount=1}, Item{name=Oranges, amount=1}, Item{name=Oranges, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Bananas, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Apples, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Mango, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Mango, amount=1}, Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}, Item{name=Bananas, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Pineapple, amount=1}, Item{name=Lettuce, amount=1}, Item{name=Tomatoes, amount=1}, Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331119920
+JMS expiration: 2960664639839
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c26f00c2-d60d-3b6f-b564-ce828817c089
+JMS Content-Type: application/java-object-stream
+AMQ message number: 20
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Slovakia
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 5/16
+	id = 94
+	category = fruit
+	budget = 489
+
+2016-11-28 12:10:49 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:53 INFO  Processor:115 - Message processed
+2016-11-28 12:10:53 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:53 INFO  Processor:91 - Body:
+[Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Celery, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Noodles, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Celery, amount=1}, Item{name=Noodles, amount=1}, Item{name=Celery, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Canned, amount=1}, Item{name=Squash, amount=1}, Item{name=Canned, amount=1}, Item{name=Eggs, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Canned, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Cheese, amount=1}, Item{name=Noodles, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Cucumber, amount=1}, Item{name=Celery, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cottagecheese, amount=1}, Item{name=Drymix, amount=1}, Item{name=Drymix, amount=1}, Item{name=Canned, amount=1}, Item{name=Canned, amount=1}, Item{name=Sourcream, amount=1}, Item{name=Drymix, amount=1}, Item{name=Mushrooms, amount=1}, Item{name=Drymix, amount=1}, Item{name=Cheese, amount=1}, Item{name=Cheese, amount=1}, Item{name=Squash, amount=1}, Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331120396
+JMS expiration: 2960664640791
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:499dec1f-e81c-3822-9e5c-03a6e32642b6
+JMS Content-Type: application/java-object-stream
+AMQ message number: 21
+Properties:
+	date = 28/11/2016 12:05:11
+	country = Latvia
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:11
+	name = Nicolas
+	subOrd = 2/16
+	id = 100
+	category = other
+	budget = 436
+
+2016-11-28 12:10:53 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:10:57 INFO  Processor:115 - Message processed
+2016-11-28 12:10:57 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:10:57 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331150108
+JMS expiration: 2960664700215
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e1eb03f8-a5a2-3818-8447-b034052596f7
+JMS Content-Type: application/java-object-stream
+AMQ message number: 22
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 2/4
+	id = 56
+	category = fruit
+	budget = 551
+
+2016-11-28 12:10:57 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:00 INFO  Processor:115 - Message processed
+2016-11-28 12:11:00 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:00 INFO  Processor:91 - Body:
+[Item{name=Tomatoes, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331150589
+JMS expiration: 2960664701177
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:49aaf91a-a83d-3637-acef-144e66bc7923
+JMS Content-Type: application/java-object-stream
+AMQ message number: 23
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 3/6
+	id = 72
+	category = fruit
+	budget = 475
+
+2016-11-28 12:11:00 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:02 INFO  Processor:115 - Message processed
+2016-11-28 12:11:02 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:02 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=1}, Item{name=Beer, amount=7}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151152
+JMS expiration: 2960664702303
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e73df1d9-2fb1-3a76-9100-7f5e05d3437f
+JMS Content-Type: application/java-object-stream
+AMQ message number: 24
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Romania
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 2/6
+	id = 13
+	category = beverages
+	budget = 481
+
+2016-11-28 12:11:02 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:05 INFO  Processor:115 - Message processed
+2016-11-28 12:11:05 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:05 INFO  Processor:91 - Body:
+[Item{name=Cheese, amount=4}, Item{name=Drymix, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151188
+JMS expiration: 2960664702375
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ec6128da-cd20-3335-8204-36c5e19a289b
+JMS Content-Type: application/java-object-stream
+AMQ message number: 25
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Romania
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 3/6
+	id = 13
+	category = other
+	budget = 439
+
+2016-11-28 12:11:05 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:08 INFO  Processor:115 - Message processed
+2016-11-28 12:11:08 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:08 INFO  Processor:91 - Body:
+[Item{name=Apples, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151420
+JMS expiration: 2960664702840
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:5dd59b5a-f0ed-37be-ba65-9986264590a5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 26
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:47
+	name = Sally
+	subOrd = 4/7
+	id = 35
+	category = fruit
+	budget = 574
+
+2016-11-28 12:11:08 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:12 INFO  Processor:115 - Message processed
+2016-11-28 12:11:12 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:12 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=1}, Item{name=Juice, amount=10}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151566
+JMS expiration: 2960664703131
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:118b0a0c-0288-38b0-a7aa-7364293e9337
+JMS Content-Type: application/java-object-stream
+AMQ message number: 27
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Poland
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/5
+	id = 59
+	category = beverages
+	budget = 420
+
+2016-11-28 12:11:12 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:15 INFO  Processor:115 - Message processed
+2016-11-28 12:11:15 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:15 INFO  Processor:91 - Body:
+[Item{name=Squash, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151759
+JMS expiration: 2960664703517
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9a1be9a4-cd3f-34fc-8de6-8840525fd8d5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 28
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 2/6
+	id = 69
+	category = other
+	budget = 529
+
+2016-11-28 12:11:15 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:19 INFO  Processor:115 - Message processed
+2016-11-28 12:11:19 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:19 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331151940
+JMS expiration: 2960664703879
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:dcc613ed-1c9d-32c1-b7b2-fff6a0be645a
+JMS Content-Type: application/java-object-stream
+AMQ message number: 29
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:47
+	name = Nicolas
+	subOrd = 2/3
+	id = 18
+	category = fruit
+	budget = 594
+
+2016-11-28 12:11:19 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:22 INFO  Processor:115 - Message processed
+2016-11-28 12:11:22 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:22 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331152026
+JMS expiration: 2960664704052
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4e47d620-057f-374e-9db9-5eeebf005324
+JMS Content-Type: application/java-object-stream
+AMQ message number: 30
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Latvia
+	frecuent = true
+	address = street 4
+	comments = Tentative party association  
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 3644444444
+	expDelivery = 28/11/2016 12:05:47
+	name = Laszlo
+	subOrd = 1/6
+	id = 27
+	category = other
+	budget = 303
+
+2016-11-28 12:11:22 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:24 INFO  Processor:115 - Message processed
+2016-11-28 12:11:24 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:24 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1480331152193
+JMS expiration: 2960664704386
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9f5d5239-4e75-3add-9d2b-d726fbfdfde8
+JMS Content-Type: application/java-object-stream
+AMQ message number: 31
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Latvia
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/6
+	id = 59
+	category = beverages
+	budget = 477
+
+2016-11-28 12:11:24 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:28 INFO  Processor:115 - Message processed
+2016-11-28 12:11:28 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:28 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331152257
+JMS expiration: 2960664704513
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:e531e695-ec09-392c-8c40-d97b4c4957e5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 32
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Italy
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 3/6
+	id = 59
+	category = fruit
+	budget = 352
+
+2016-11-28 12:11:28 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:32 INFO  Processor:115 - Message processed
+2016-11-28 12:11:32 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:32 INFO  Processor:91 - Body:
+[Item{name=Cheese, amount=4}]
+JMS Correlation ID: null
+JMS timestamp: 1480331152416
+JMS expiration: 2960664704831
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:93005523-7b9d-35fc-af07-dc22bfdba40f
+JMS Content-Type: application/java-object-stream
+AMQ message number: 33
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Netherlands
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 2/6
+	id = 98
+	category = other
+	budget = 339
+
+2016-11-28 12:11:32 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:34 INFO  Processor:115 - Message processed
+2016-11-28 12:11:34 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:34 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331152457
+JMS expiration: 2960664704913
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:169da0cc-a29f-3be8-9fcf-73a61b44082a
+JMS Content-Type: application/java-object-stream
+AMQ message number: 34
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 3/6
+	id = 98
+	category = fruit
+	budget = 391
+
+2016-11-28 12:11:34 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:38 INFO  Processor:115 - Message processed
+2016-11-28 12:11:38 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:38 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1480331153428
+JMS expiration: 2960664706855
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:9e9e584e-67c0-31da-b523-f67315311502
+JMS Content-Type: application/java-object-stream
+AMQ message number: 35
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Poland
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 1/5
+	id = 30
+	category = beverages
+	budget = 593
+
+2016-11-28 12:11:38 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:40 INFO  Processor:115 - Message processed
+2016-11-28 12:11:40 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:40 INFO  Processor:91 - Body:
+[Item{name=Beer, amount=7}, Item{name=sangria, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331153597
+JMS expiration: 2960664707193
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ebe81af5-2e89-3142-ad30-7c30c091b2e0
+JMS Content-Type: application/java-object-stream
+AMQ message number: 36
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Netherlands
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/4
+	id = 56
+	category = beverages
+	budget = 474
+
+2016-11-28 12:11:40 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:43 INFO  Processor:115 - Message processed
+2016-11-28 12:11:43 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:43 INFO  Processor:91 - Body:
+[Item{name=Yoghurt, amount=5}]
+JMS Correlation ID: null
+JMS timestamp: 1480331154607
+JMS expiration: 2960664709213
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:fa65799b-7aed-3a8b-8423-9584a89487b5
+JMS Content-Type: application/java-object-stream
+AMQ message number: 37
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Romania
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/7
+	id = 67
+	category = beverages
+	budget = 483
+
+2016-11-28 12:11:43 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:47 INFO  Processor:115 - Message processed
+2016-11-28 12:11:47 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:47 INFO  Processor:91 - Body:
+[Item{name=Canned, amount=7}]
+JMS Correlation ID: null
+JMS timestamp: 1480331155832
+JMS expiration: 2960664711664
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:7a66ffb4-0575-3b78-a6de-a8ed716ef939
+JMS Content-Type: application/java-object-stream
+AMQ message number: 38
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Lithuania
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 1/8
+	id = 73
+	category = other
+	budget = 470
+
+2016-11-28 12:11:47 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:49 INFO  Processor:115 - Message processed
+2016-11-28 12:11:49 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:49 INFO  Processor:91 - Body:
+[Item{name=Lettuce, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331155989
+JMS expiration: 2960664711977
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:41d565f3-3a32-3b4e-8fc5-88000ec4d2fb
+JMS Content-Type: application/java-object-stream
+AMQ message number: 39
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 5/8
+	id = 73
+	category = fruit
+	budget = 576
+
+2016-11-28 12:11:49 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:54 INFO  Processor:115 - Message processed
+2016-11-28 12:11:54 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:54 INFO  Processor:91 - Body:
+[Item{name=Mushrooms, amount=1}, Item{name=Cheese, amount=4}]
+JMS Correlation ID: null
+JMS timestamp: 1480331156131
+JMS expiration: 2960664712262
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:5ae6c703-c1ce-3531-b310-06659ac05100
+JMS Content-Type: application/java-object-stream
+AMQ message number: 40
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Romania
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 1/3
+	id = 33
+	category = other
+	budget = 552
+
+2016-11-28 12:11:54 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:56 INFO  Processor:115 - Message processed
+2016-11-28 12:11:56 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:56 INFO  Processor:91 - Body:
+[Item{name=Juice, amount=10}]
+JMS Correlation ID: null
+JMS timestamp: 1480331156322
+JMS expiration: 2960664712643
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:728ce64b-b54a-39e6-9cbc-cb85b8c7445e
+JMS Content-Type: application/java-object-stream
+AMQ message number: 41
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Lithuania
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:47
+	name = Nicolas
+	subOrd = 1/4
+	id = 13
+	category = beverages
+	budget = 319
+
+2016-11-28 12:11:56 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:11:59 INFO  Processor:115 - Message processed
+2016-11-28 12:11:59 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:11:59 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331156449
+JMS expiration: 2960664712898
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:fe4d8609-5fd7-30f5-8c3a-df33c99c271a
+JMS Content-Type: application/java-object-stream
+AMQ message number: 42
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/7
+	id = 44
+	category = beverages
+	budget = 382
+
+2016-11-28 12:11:59 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:01 INFO  Processor:115 - Message processed
+2016-11-28 12:12:01 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:01 INFO  Processor:91 - Body:
+[Item{name=Lettuce, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331157009
+JMS expiration: 2960664714018
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:2f5fdcec-35d7-3866-9105-8374963b1c96
+JMS Content-Type: application/java-object-stream
+AMQ message number: 43
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Latvia
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 1/4
+	id = 64
+	category = fruit
+	budget = 376
+
+2016-11-28 12:12:01 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:04 INFO  Processor:115 - Message processed
+2016-11-28 12:12:04 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:04 INFO  Processor:91 - Body:
+[Item{name=Oranges, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331157211
+JMS expiration: 2960664714421
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:56fc35be-8a16-3ea4-8c2c-df6f66dc3173
+JMS Content-Type: application/java-object-stream
+AMQ message number: 44
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Lithuania
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 2/5
+	id = 17
+	category = fruit
+	budget = 411
+
+2016-11-28 12:12:04 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:06 INFO  Processor:115 - Message processed
+2016-11-28 12:12:06 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:06 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331157510
+JMS expiration: 2960664715019
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:b91a950b-03e8-31f6-9c9a-78b531e2db48
+JMS Content-Type: application/java-object-stream
+AMQ message number: 45
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Poland
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/5
+	id = 91
+	category = fruit
+	budget = 420
+
+2016-11-28 12:12:06 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:10 INFO  Processor:115 - Message processed
+2016-11-28 12:12:10 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:10 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}, Item{name=Oranges, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331157803
+JMS expiration: 2960664715605
+JMS priority: 5
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:60886b03-793e-3fa9-87d1-4b15f769de38
+JMS Content-Type: application/java-object-stream
+AMQ message number: 46
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 2/4
+	id = 48
+	category = fruit
+	budget = 541
+
+2016-11-28 12:12:10 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:12 INFO  Processor:115 - Message processed
+2016-11-28 12:12:12 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:12 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331158374
+JMS expiration: 2960664716747
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:c8e619ac-597c-38d8-9c20-9708130dfa7d
+JMS Content-Type: application/java-object-stream
+AMQ message number: 47
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Ireland
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:47
+	name = Nicolas
+	subOrd = 5/6
+	id = 37
+	category = fruit
+	budget = 537
+
+2016-11-28 12:12:12 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:16 INFO  Processor:115 - Message processed
+2016-11-28 12:12:16 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:16 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331158435
+JMS expiration: 2960664716869
+JMS priority: 3
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:4451ebec-359a-3a8f-8807-925b16f25db8
+JMS Content-Type: application/java-object-stream
+AMQ message number: 48
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Portugal
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 1/3
+	id = 34
+	category = other
+	budget = 341
+
+2016-11-28 12:12:16 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:19 INFO  Processor:115 - Message processed
+2016-11-28 12:12:19 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:19 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331158731
+JMS expiration: 2960664717461
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:53c062a8-ae95-351e-b91e-e8cf57c81fc7
+JMS Content-Type: application/java-object-stream
+AMQ message number: 49
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 2/6
+	id = 40
+	category = fruit
+	budget = 503
+
+2016-11-28 12:12:19 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:21 INFO  Processor:115 - Message processed
+2016-11-28 12:12:21 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:21 INFO  Processor:91 - Body:
+[Item{name=Canned, amount=7}]
+JMS Correlation ID: null
+JMS timestamp: 1480331158913
+JMS expiration: 2960664717826
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:5904444b-9971-334e-9101-d26abdcbf466
+JMS Content-Type: application/java-object-stream
+AMQ message number: 50
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 1/5
+	id = 36
+	category = other
+	budget = 497
+
+2016-11-28 12:12:21 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:24 INFO  Processor:115 - Message processed
+2016-11-28 12:12:24 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:24 INFO  Processor:91 - Body:
+[Item{name=Pineapple, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331158985
+JMS expiration: 2960664717969
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:de2169d2-6c53-3adb-9dd7-66abbfdecda1
+JMS Content-Type: application/java-object-stream
+AMQ message number: 51
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Malta
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:47
+	name = Nicolas
+	subOrd = 2/5
+	id = 36
+	category = fruit
+	budget = 527
+
+2016-11-28 12:12:24 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:26 INFO  Processor:115 - Message processed
+2016-11-28 12:12:26 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:26 INFO  Processor:91 - Body:
+[Item{name=Celery, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331160022
+JMS expiration: 2960664720042
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:860642f1-af38-33be-95d8-14c08be39ec4
+JMS Content-Type: application/java-object-stream
+AMQ message number: 52
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/6
+	id = 61
+	category = other
+	budget = 465
+
+2016-11-28 12:12:26 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:30 INFO  Processor:115 - Message processed
+2016-11-28 12:12:30 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:30 INFO  Processor:91 - Body:
+[Item{name=sangria, amount=1}, Item{name=Cider, amount=2}]
+JMS Correlation ID: null
+JMS timestamp: 1480331160505
+JMS expiration: 2960664721009
+JMS priority: 7
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:22cf20b4-0862-39a8-8815-84b8592d5d17
+JMS Content-Type: application/java-object-stream
+AMQ message number: 53
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Lithuania
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:47
+	name = Sally
+	subOrd = 1/5
+	id = 76
+	category = beverages
+	budget = 517
+
+2016-11-28 12:12:30 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:32 INFO  Processor:115 - Message processed
+2016-11-28 12:12:32 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:32 INFO  Processor:91 - Body:
+[Item{name=Cheese, amount=4}]
+JMS Correlation ID: null
+JMS timestamp: 1480331162115
+JMS expiration: 2960664724229
+JMS priority: 6
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:92ee0124-8b24-30c3-84fe-728b77f6b2c9
+JMS Content-Type: application/java-object-stream
+AMQ message number: 54
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Slovakia
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:47
+	name = Sally
+	subOrd = 2/7
+	id = 55
+	category = other
+	budget = 365
+
+2016-11-28 12:12:32 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:36 INFO  Processor:115 - Message processed
+2016-11-28 12:12:36 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:36 INFO  Processor:91 - Body:
+[Item{name=Bananas, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331162268
+JMS expiration: 2960664724535
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:36094a61-8f29-35d1-b927-74b1094d0bcc
+JMS Content-Type: application/java-object-stream
+AMQ message number: 55
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Ireland
+	frecuent = true
+	address = marinara utca
+	comments = student project computer science, cables, adaptor and computer keyboard, may be a cellphone
+	qpid.subject = requestTopic
+	deliverAddress = marinara utca
+	phone = 364444444444
+	expDelivery = 28/11/2016 12:05:47
+	name = Sally
+	subOrd = 4/7
+	id = 55
+	category = fruit
+	budget = 435
+
+2016-11-28 12:12:36 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:40 INFO  Processor:115 - Message processed
+2016-11-28 12:12:40 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:40 INFO  Processor:91 - Body:
+[Item{name=Water, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331164284
+JMS expiration: 2960664728567
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:0a43e418-dee1-3b99-8ac3-c22831485e80
+JMS Content-Type: application/java-object-stream
+AMQ message number: 56
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Hungary
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 1/5
+	id = 90
+	category = beverages
+	budget = 408
+
+2016-11-28 12:12:40 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:44 INFO  Processor:115 - Message processed
+2016-11-28 12:12:44 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:44 INFO  Processor:91 - Body:
+[Item{name=Milk, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331164511
+JMS expiration: 2960664729022
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:65ff97a6-ac6e-3793-8c2a-27693014f977
+JMS Content-Type: application/java-object-stream
+AMQ message number: 57
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Malta
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 1/6
+	id = 6
+	category = beverages
+	budget = 373
+
+2016-11-28 12:12:44 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:46 INFO  Processor:115 - Message processed
+2016-11-28 12:12:46 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:46 INFO  Processor:91 - Body:
+[Item{name=Cucumber, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331164592
+JMS expiration: 2960664729183
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:b953e087-50ca-3740-baf7-57c0a6f98cd8
+JMS Content-Type: application/java-object-stream
+AMQ message number: 58
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Poland
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 2/6
+	id = 6
+	category = other
+	budget = 445
+
+2016-11-28 12:12:46 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:48 INFO  Processor:115 - Message processed
+2016-11-28 12:12:48 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:48 INFO  Processor:91 - Body:
+[Item{name=Squash, amount=1}, Item{name=Noodles, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331165028
+JMS expiration: 2960664730055
+JMS priority: 1
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:bff55a8d-8985-3b95-ae7c-2ca68a798666
+JMS Content-Type: application/java-object-stream
+AMQ message number: 59
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Portugal
+	frecuent = false
+	address = Heroes street
+	comments = it is for school assigment
+	qpid.subject = requestTopic
+	deliverAddress = devoi utca
+	phone = 3687898545648
+	expDelivery = 28/11/2016 12:05:47
+	name = Nicolas
+	subOrd = 2/4
+	id = 100
+	category = other
+	budget = 568
+
+2016-11-28 12:12:48 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:50 INFO  Processor:115 - Message processed
+2016-11-28 12:12:50 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:50 INFO  Processor:91 - Body:
+[Item{name=Sourcream, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331165465
+JMS expiration: 2960664730929
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:71011e6d-e6af-3ac3-99d3-ed80e7f7ed7b
+JMS Content-Type: application/java-object-stream
+AMQ message number: 60
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Italy
+	frecuent = true
+	address = Huba ut
+	comments = outdoor activities, hiking to the hill, next month
+	qpid.subject = requestTopic
+	deliverAddress = Huba ut
+	phone = 3689938383882
+	expDelivery = 28/11/2016 12:05:47
+	name = Gabriela
+	subOrd = 2/6
+	id = 90
+	category = other
+	budget = 317
+
+2016-11-28 12:12:50 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:52 INFO  Processor:115 - Message processed
+2016-11-28 12:12:52 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:52 INFO  Processor:91 - Body:
+[Item{name=Mango, amount=1}, Item{name=Lettuce, amount=1}]
+JMS Correlation ID: null
+JMS timestamp: 1480331165562
+JMS expiration: 2960664731123
+JMS priority: 2
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:ecee3416-8aa9-3c02-bbed-1c777d52b106
+JMS Content-Type: application/java-object-stream
+AMQ message number: 61
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Luxembourg
+	frecuent = true
+	address = street 1
+	comments = It is needed for a conmemorative party, traditional food server, customes party
+	qpid.subject = requestTopic
+	deliverAddress = street 1
+	phone = 5936656565656
+	expDelivery = 28/11/2016 12:05:47
+	name = Xavier
+	subOrd = 4/6
+	id = 90
+	category = fruit
+	budget = 599
+
+2016-11-28 12:12:52 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:55 INFO  Processor:115 - Message processed
+2016-11-28 12:12:55 INFO  Processor:90 - 
+--- Message to be processed -------------
+
+2016-11-28 12:12:55 INFO  Processor:91 - Body:
+[Item{name=Cheese, amount=4}]
+JMS Correlation ID: null
+JMS timestamp: 1480331165713
+JMS expiration: 2960664731425
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'amq.topic'/'requestTopic'; None
+JMS Type: null
+JMS MessageID: ID:16fb34fe-6c4f-342b-948c-670280becce6
+JMS Content-Type: application/java-object-stream
+AMQ message number: 62
+Properties:
+	date = 28/11/2016 12:05:47
+	country = Romania
+	frecuent = true
+	address = nemet utca
+	comments = There will be an outdoor party
+	qpid.subject = requestTopic
+	deliverAddress = nemet utca
+	phone = 361122334455
+	expDelivery = 28/11/2016 12:05:47
+	name = Eva
+	subOrd = 1/6
+	id = 67
+	category = other
+	budget = 537
+
+2016-11-28 12:12:55 INFO  Processor:106 - 
+---end Message-------------------------
+
+2016-11-28 12:12:57 INFO  Processor:115 - Message processed
+2016-11-28 13:48:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 13:48:49 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 13:48:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
+2016-11-28 13:48:50 DEBUG StoreOperationsImpl:197 - Inserting elements on list: 
