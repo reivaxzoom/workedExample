@@ -53,7 +53,6 @@ public class Launcher {
         bb.and(rd.category.eq("software").or(rd.category.eq("hardware")).or(rd.category.eq("computer")));
         bb.and(rd.date.isNotNull());
         bb.and(rd.budget.between(100,900));
-        
         return qg.genQuery(bb);
     }
     public static BlockingQueue<RequestData> queue;
