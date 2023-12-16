@@ -129,7 +129,7 @@
     <repositories>
         <repository>
             <id>query-collections</id>
-            <url>http://repo.maven.apache.org/maven2/com/querydsl/querydsl-collections/</url>
+            <url>https://repo.maven.apache.org/maven2/com/querydsl/querydsl-collections/</url>
         </repository>
     </repositories>
     
